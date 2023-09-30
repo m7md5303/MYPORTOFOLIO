@@ -10,13 +10,13 @@ import cont from '../Images/WhatsApp Image 2023-08-28 at 4.07.07 AM.jpeg'
 import cv from '../Images/cv.png'
 import Lfcmp from './Lfcmp';
 export default function Home() {
-    
 
     return (
         
       <div className='home'>
          {window.scrollTo(0,0)}
-        <img src={introimg} className='homeimg1'/>
+   
+        <img src={introimg} className='homeimg1' onMouseEnter={()=>alert("The website isn't already yet. Stay tuned.")}/>
         <TypeAnimation
         sequence={[
           `It's Mohamed Khaled speaking!  Don't forget to enjoy your time in my website.`,
