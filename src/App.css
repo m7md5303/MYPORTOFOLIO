@@ -258,18 +258,19 @@ color:#1a0a64;font-weight: bold;}
 
 
 
-          @media only screen and (max-width:1200px){
-            .mnavbar{margin:-12.5vw;height: 20vh;width: 100vw;}
+          /*@media only screen and (max-width:1200px){
+            .mnavbar{margin:-18.5vw;height: 20vh;width: 100vw;}
             .navitem{width: 15vw;}
             .navitem a{font-size: 1.7vw;}
-            .navitem a:hover{font-size: 2.1vw;}
+            .navitem a:hover{font-size: 1.7vw;}
             .mynavphoto{width: 0;height: 0;}
             .home{width: auto;}
             .homeimg1{width: 98.7vw;}
+            .intro{width: 95vw;}
             .subintrotitle{font-size:6vw;}
             .subintrop{font-size: 2.5vw;}
-            .postintro{width: 90vw;margin: 0;}
-            .lfcmp{width: 87vw;}
+            .postintro{width: 95vw;margin: 0;}
+            .lfcmp{width: 95vw;}
             .lfcmp h4{font-size: 4vw;}
             .lfcmp p{font-size: 2.3vw;width: 40vw;}
             .lfcmp img{width: 45vw;}
@@ -280,14 +281,14 @@ color:#1a0a64;font-weight: bold;}
             .blue h3{font-size: 4vw;}
             .blue p{font-size: 2.2vw;}
             .blue a{font-size: 1.9vw;}
-            .blue img{width: 45vw;height: 40vh;}
+            .blue img{width:50vw;height: 30vh;}
             .yellow{width: 85vw;margin-left:0 ;margin-right: 0;}
             .yellow h3{font-size: 4vw;}
             .yellow p{font-size: 2.2vw;}
             .yellow a{font-size: 1.9vw;}
-            .yellow img{width: 45vw;height: 40vh;}
+            .yellow img{width: 50vw;height: 30vh;}
             .dskills{width: 95vw;height: auto;}
-            .dlist{width: 85vw;font-size: 2.4vw;height: 30vh;}
+            .dlist{width: 80vw;font-size: 2.4vw;height: 30vh;}
             .bluec{width: 85vw;margin-left:0 ;margin-right: 0;}
             .bluec h3{font-size: 4vw;}
             .bluec p{font-size: 2.2vw;}
@@ -298,4 +299,4 @@ color:#1a0a64;font-weight: bold;}
             .yellowc p{font-size: 2.2vw;}
             .yellowc a{font-size: 1.9vw;}
             .yellowc img{width: 45vw;height: 40vh;}
-          }
+          }*/

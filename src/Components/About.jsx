@@ -18,7 +18,7 @@ export default function About() {
         
       <div className='about'>
         {window.scrollTo(0,0)}
-<img src={aboutintro} className='aboutintro'/><Fade>
+<img src={aboutintro} className='aboutintro'/><Fade delay={200}>
         <div className='cont'>
        <div className='conttxt'>
         <h1>Education🎓</h1>
