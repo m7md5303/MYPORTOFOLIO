@@ -16,7 +16,7 @@ export default function Home() {
       <div className='home'>
          {window.scrollTo(0,0)}
    
-        <img src={introimg} className='homeimg1' onMouseEnter={()=>alert("The website isn't already yet. Stay tuned.")}/>
+        <img src={introimg} className='homeimg1'/>
         <TypeAnimation
         sequence={[
           `It's Mohamed Khaled speaking!  Don't forget to enjoy your time in my website.`,

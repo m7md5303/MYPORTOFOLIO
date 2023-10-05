@@ -136,7 +136,7 @@ color:#1a0a64;font-weight: bold;}
     .yellowc a:hover{text-decoration: underline;}
     
     .subyellowc{display: flex;flex-direction: row;justify-content: space-between;padding-right: 1.5vw;}
-    .subyellowc img{width: 35vw;height: 40vh;}
+    .subyellowc img{width: 30vw;height: 60vh;}
 
 
 
@@ -251,3 +251,51 @@ color:#1a0a64;font-weight: bold;}
 
         .m{width:73vw;height: 55vh;border-radius: 5vw;border-style: solid;
           border-color: rgb(39, 115, 255);margin-top: 4vh;}
+
+
+
+
+
+
+
+          @media only screen and (max-width:1200px){
+            .mnavbar{margin:-12.5vw;height: 20vh;width: 100vw;}
+            .navitem{width: 15vw;}
+            .navitem a{font-size: 1.7vw;}
+            .navitem a:hover{font-size: 2.1vw;}
+            .mynavphoto{width: 0;height: 0;}
+            .home{width: auto;}
+            .homeimg1{width: 98.7vw;}
+            .subintrotitle{font-size:6vw;}
+            .subintrop{font-size: 2.5vw;}
+            .postintro{width: 90vw;margin: 0;}
+            .lfcmp{width: 87vw;}
+            .lfcmp h4{font-size: 4vw;}
+            .lfcmp p{font-size: 2.3vw;width: 40vw;}
+            .lfcmp img{width: 45vw;}
+            .mdcmp button{font-size: 3vw;}
+            .mdrcmp button{font-size: 3vw;}
+            .mdccmp button{font-size: 3vw;}
+            .blue{width: 85vw;margin-left:0 ;margin-right: 0;}
+            .blue h3{font-size: 4vw;}
+            .blue p{font-size: 2.2vw;}
+            .blue a{font-size: 1.9vw;}
+            .blue img{width: 45vw;height: 40vh;}
+            .yellow{width: 85vw;margin-left:0 ;margin-right: 0;}
+            .yellow h3{font-size: 4vw;}
+            .yellow p{font-size: 2.2vw;}
+            .yellow a{font-size: 1.9vw;}
+            .yellow img{width: 45vw;height: 40vh;}
+            .dskills{width: 95vw;height: auto;}
+            .dlist{width: 85vw;font-size: 2.4vw;height: 30vh;}
+            .bluec{width: 85vw;margin-left:0 ;margin-right: 0;}
+            .bluec h3{font-size: 4vw;}
+            .bluec p{font-size: 2.2vw;}
+            .bluec a{font-size: 1.9vw;}
+            .bluec img{width: 45vw;height: 40vh;}
+            .yellowc{width: 85vw;margin-left:0 ;margin-right: 0;}
+            .yellowc h3{font-size: 4vw;}
+            .yellowc p{font-size: 2.2vw;}
+            .yellowc a{font-size: 1.9vw;}
+            .yellowc img{width: 45vw;height: 40vh;}
+          }
