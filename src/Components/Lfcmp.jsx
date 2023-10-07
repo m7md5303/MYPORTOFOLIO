@@ -9,7 +9,7 @@ export default function Lfcmp({title,para,img}) {
  <h4>{title}</h4>
 <p>{para}</p>
 </div>
-<img src={img}/>
+<img src={img}alt='Loading⏳'/>
 </div>
 
 

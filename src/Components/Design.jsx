@@ -8,14 +8,12 @@ import Dmrcmp from './Dmrcmp'
 import Dmlfcmp from './Dmlfcmp';
 import Dmlfccmp from './Dmlfccmp'
 export default function Design() {
-    const [projshow,setProjshow]=useState(false);
-    const [skillshow,setSkilljshow]=useState(false);
-    const [courseshow,setCourseshow]=useState(false);
+
     return (
         
        <div className='digital'>
          {window.scrollTo(0,0)}
-        <img className='dintro' src={intro}/>
+        <img className='dintro' src={intro}alt='Loading⏳'/>
  
         <div className='dcontainer'>
       <Dmlfcmp imgd={projimg} /> 

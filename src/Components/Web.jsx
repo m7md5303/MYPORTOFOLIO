@@ -1,8 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
-import {
-    BrowserRouter as Router, Route, Link, Routes
-  } from "react-router-dom";
+
   import { Fade } from "react-awesome-reveal";
   import Dlabnyc from './Dlabnyc';
   import Dredc from './Dredc';
@@ -27,19 +24,19 @@ export default function Web() {
         
        <div className='web'>
         {window.scrollTo(0,0)}
-<img src={webintro} className='webintro'/>
+<img src={webintro} className='webintro'alt='Loading⏳'/>
 
 <div className='webdet'>
 <Fade delay={200}>
 <div className='webtit'>
 <h2>Projects 🌐</h2>
-<img src={webGif}className='webgif'/>
+<img src={webGif}className='webgif'alt='Loading⏳'/>
 </div>
 </Fade>
 <Fade delay={200}>
-<div className='masweb'>
+<div className='masweb'alt='Loading⏳'>
 <h2> 1-Front & Back ends implementation of a template for a travelling and car renting company</h2>
-<img src={masGif}className='masgif'/>
+<img src={masGif}className='masgif'alt='Loading⏳'/>
 </div>
 </Fade>
 <div className='masdet'>
@@ -59,7 +56,7 @@ export default function Web() {
 <Fade delay={200}>
 <div className='masweb'>
 <h2> 2-QR Attendance App Interface</h2>
-<img src={qrg}className='qrgif'/>
+<img src={qrg}className='qrgif'alt='Loading⏳'/>
 </div>
 </Fade>
 <div className='qrdet'>
@@ -73,7 +70,7 @@ export default function Web() {
 <Fade delay={200}>
 <div className='masweb'>
 <h2> 3-My Portofolio</h2>
-<img src={pi}className='masgif'/>
+<img src={pi}className='masgif'alt='Loading⏳'/>
 </div>
 </Fade>
 <Fade delay={200}>
@@ -85,7 +82,7 @@ export default function Web() {
 <Fade delay={200}>
 <div className='webtit'>
 <h2>Courses 📘</h2>
-<img src={cgif}className='webgif'/>
+<img src={cgif}className='webgif'alt='Loading⏳'/>
 </div>
 </Fade>
 <Fade delay={200}>
@@ -97,7 +94,7 @@ export default function Web() {
 <Fade delay={200}>
 <div className='webtit'>
 <h2>Strong Points 👌</h2>
-<img src={sp}className='webgif'/>
+<img src={sp}className='webgif'alt='Loading⏳'/>
 </div>
 </Fade>
 <Fade delay={200}>

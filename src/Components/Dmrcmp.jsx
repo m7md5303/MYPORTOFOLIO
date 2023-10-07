@@ -5,7 +5,7 @@ export default function Dmrcmp({imgd}) {
 
     return (
         <div className='mdrcmp'>
-            <img src={imgd}/>
+            <img src={imgd}alt='Loading⏳'/>
             <button onClick={()=>{setShow(!show)}} >{show? "Hide" :"Show"} </button>
             {show? <div className='dskills'>
            <ul className='dlist'>

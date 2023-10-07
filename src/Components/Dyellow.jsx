@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-    BrowserRouter as Router, Route, Link, Routes
+    BrowserRouter as Link
   } from "react-router-dom";
 export default function ({title,para,img,linka}) {
     
@@ -13,7 +13,7 @@ export default function ({title,para,img,linka}) {
                 <p>{para}</p>
                 <Link to={linka}>Click here for the code.</Link>
                 </div>
-                <img src={img}/>
+                <img src={img}alt='Loading⏳'/>
             </div>
             
         </div>

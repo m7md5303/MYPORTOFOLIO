@@ -9,7 +9,7 @@ export default function Dlabnyc({title,para,img}) {
         <h1>{title}</h1>
         <p>{para}</p> 
         </div>
-        <img src={img}/>
+        <img src={img}alt='Loading⏳'/>
         </div>
     )
 }

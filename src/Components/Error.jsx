@@ -4,8 +4,8 @@ export default function Error(props) {
     
 
     return (
-        <>
+        <div className='err'>
             
-        </>
+        </div>
     )
 }

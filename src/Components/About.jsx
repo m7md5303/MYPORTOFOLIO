@@ -18,7 +18,7 @@ export default function About() {
         
       <div className='about'>
         {window.scrollTo(0,0)}
-<img src={aboutintro} className='aboutintro'/><Fade delay={200}>
+<img src={aboutintro} className='aboutintro'alt='Loading⏳'/><Fade delay={200}>
         <div className='cont'>
        <div className='conttxt'>
         <h1>Education🎓</h1>
@@ -31,7 +31,7 @@ export default function About() {
             <p>General Secondary Certificate</p>
         </div>
        </div>
-<img src={eduintro}/>
+<img src={eduintro}alt='Loading⏳'/>
 
         </div>
         <div className='cont'>
@@ -50,7 +50,7 @@ export default function About() {
             <p>Fair</p>
         </div>
        </div>
-<img src={lanintro}/>
+<img src={lanintro}alt='Loading⏳'/>
 
         </div>
         <div className='cont'>
@@ -66,7 +66,7 @@ export default function About() {
             <p>Completed A1.2,A1.3 & A2.1 levels provided by Goethe Institue in Cairo with Grade 1 (87%-100%).</p>
         </div>
        </div>
-<img src={lancintro}/>
+<img src={lancintro}alt='Loading⏳'/>
 
         </div>
 
@@ -82,7 +82,7 @@ export default function About() {
             <h3>-Team Work</h3>
         </div>
        </div>
-<img src={techintro}/>
+<img src={techintro}alt='Loading⏳'/>
 
         </div>
        
@@ -97,22 +97,22 @@ export default function About() {
             <h3>-Home Gardening🌴</h3>
         </div>
        </div>
-<img src={hobyntro}/>
+<img src={hobyntro}alt='Loading⏳'/>
 
         </div>
 <div className='cv'>
     <div className='cvtxt'>
 <h1>My C.V.</h1>
 <p>Eventually, you can easily view my updated C.V. from the link below.😃</p>
-<Link to="..">M.K. C.V. </Link>
+<Link to="https://drive.google.com/drive/folders/1cTCipDT_ysKDqME_pj1byzpJLjbE2Juq">M.K. C.V. </Link>
     </div>
-    <img src={cv}/>
+    <img src={cv}alt='Loading⏳'/>
 </div>
         
         
         
         </Fade>
-        <img src={m}className='m'/>
+        <img src={m}className='m'alt='Loading⏳'/>
         </div> 
 
         

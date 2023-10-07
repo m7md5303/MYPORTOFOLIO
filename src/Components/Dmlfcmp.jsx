@@ -12,7 +12,7 @@ export default function Dmlfcmp({imgd}) {
 
     return (
         <div className='mdcmp'>
-            <img src={imgd}/>
+            <img src={imgd}alt='Loading⏳'/>
             <button onClick={()=>{setShow(!show)}} >{show? "Hide" :"Show"} </button>
             {show? <div className='projects'>
       <Dblue title={"SPI_slave with a single port RAM Design"} para={"SPI communication protocol is one of the most famous protocols. In this project a spi slave was implemented using verilog accompanied with a single port RAM. The master is able to send the data whether address or word to be stored in the RAM block through the implemented slave. It is also capable of receiving the serial data after being transformed from parallel after 12 clock cycles from asserting the SS_n signal."} img={spi} linka={"https://github.com/m7md5303/SPI_slave-with-a-single-port-RAM"}/>

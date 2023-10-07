@@ -1,8 +1,6 @@
 import React from 'react'
-import {
-    BrowserRouter as Router, Route, Link, Routes
-  } from "react-router-dom";
-export default function ({title,para,img,linka}) {
+
+export default function ({title,para,img}) {
     
 
     return (
@@ -12,7 +10,7 @@ export default function ({title,para,img,linka}) {
                 <div className='txt'>
                 <p>{para}</p>
                 </div>
-                <img src={img}/>
+                <img src={img}alt='Loading⏳'/>
             </div>
             
         </div>

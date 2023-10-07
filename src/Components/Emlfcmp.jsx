@@ -13,7 +13,7 @@ export default function Emlfcmp({imgd}) {
 
     return (
         <div className='mdcmp'>
-            <img src={imgd}/>
+            <img src={imgd}alt='Loading⏳'/>
             <button onClick={()=>{setShow(!show)}} >{show? "Hide" :"Show"} </button>
             {show? <div className='projects'>
       <Dblue title={"4 operation-calculator"} para={"A 4-operation Calculator {Addition, Subtraction, Multiplication, Division} with an accuracy reaching 4-digits after the decimal point. It was implemented with C programming language and uploaded to Atmega 32 controller. The other compenents used were:\n-Charachter LCD.\n-4x4 Keypad."} img={spi} linka={"https://github.com/m7md5303/4ops_4float_calc"}/>

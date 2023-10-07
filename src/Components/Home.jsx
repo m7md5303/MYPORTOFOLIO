@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { useState } from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import introimg from '../Images/WhatsApp Image 2021-04-03 at 4.30.47 PM.jpeg'
 import sumimg from '../Images/IMG_20220729_014025_795.jpg'
@@ -11,13 +11,14 @@ import cont from '../Images/WhatsApp Image 2023-08-28 at 4.07.07 AM.jpeg'
 import cv from '../Images/cv.png'
 import Lfcmp from './Lfcmp';
 export default function Home() {
-  
+  const [show,setShow]=useState(true); 
+  const alv=()=>{if(show)alert("For proper view rotate your phone to landscape view🔄 however, PC 💻would be better😃");  setShow(0);} 
     return (
         
-      <div className='home' >
+      <div className='home'onLoad={()=>{alv();}} >
          {window.scrollTo(0,0)}
    
-        <img src={introimg} className='homeimg1'/>
+        <img src={introimg} className='homeimg1' alt='Loading⏳'/>
         <TypeAnimation
         sequence={[
           `It's Mohamed Khaled speaking!  Don't forget to enjoy your time in my website.`,
@@ -38,7 +39,7 @@ export default function Home() {
       </p>
       
     </div>
-    <img src={sumimg} className='introimg'/></div>
+    <img src={sumimg} className='introimg'alt='Loading⏳'/></div>
 
     <div className='postintro'>
       <div className='subpostintro'>

@@ -12,7 +12,7 @@ export default function Navbar(props) {
 
     return (
         <div className='mnavbar'>
-        <img src={myphoto} className='mynavphoto'/>
+        <img src={myphoto} className='mynavphoto'alt='Loading⏳'/>
         <ul className='navbar'>
         
 <li><Nav linka={'/'} title={'Home'} src={home}/></li>

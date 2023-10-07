@@ -9,7 +9,7 @@ export default function Dmlfccmp({imgd}) {
 
     return (
         <div className='mdccmp'>
-            <img src={imgd}/>
+            <img src={imgd}alt='Loading⏳'/>
             <button onClick={()=>{setShow(!show)}} >{show? "Hide" :"Show"} </button>
             {show? <div className='dcourses'>
 
