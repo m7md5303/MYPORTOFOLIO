@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-    BrowserRouter as  Link
+    BrowserRouter as Router, Route, Link, Routes
   } from "react-router-dom";
 export default function ({title,para,img,linka}) {
     
