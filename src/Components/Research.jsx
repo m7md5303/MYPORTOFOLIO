@@ -1,7 +1,7 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import {
-    BrowserRouter as  Link
+    BrowserRouter as Router, Route, Link, Routes
   } from "react-router-dom";
   import introres from '../Images/Picsart_23-09-12_00-00-05-461.jpg'
   import logo from '../Images/Logo_2.jpg'
