@@ -11,6 +11,7 @@ import Embedded from './Components/Embedded';
 import Design from './Components/Design';
 import About from './Components/About';
 import Error from './Components/Error';
+import Botnav from './Components/Botnav';
 function App() {
   const [show,setShow]=useState(true); 
   const alv=()=>{{setShow(false);alert("For proper view rotate your phone to landscape view🔄 however, PC 💻would be better😃.");  }}
@@ -27,6 +28,7 @@ function App() {
         <Route path='WebDevelopment' element={<Web/>}/>
         <Route path='ScientificResearch' element={<Research/>}/>
     </Routes>
+    <Botnav/>
   </Router> 
     </div>
   );

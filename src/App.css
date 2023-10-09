@@ -38,7 +38,7 @@
 }
 
 .home{background-color: rgb(10, 10, 88);width: auto;display: flex;padding-top: 1vh;
-flex-direction: column;align-items: start;justify-content: center;}
+flex-direction: column;align-items: start;justify-content: center;padding-bottom: 7vh;}
 .homeimg1{width:98.7vw;height: 100vh;}
 .intro{display: flex;flex-direction: row;align-items:center;justify-content: start;width: 80vw;
 background-color: #0a718d;padding-left: 2.5vw;border-radius: 3.5vw;margin-bottom: 12vh;margin-left: 3vw;}
@@ -71,7 +71,7 @@ color: rgb(9, 9, 102);padding-left: 1.5vw;padding-top: 0;margin-bottom: 6vh;}
 .lfcmp h4{font-size: 2.3vw;margin: 0;text-decoration: underline;}
 .lfcmp p{font-weight: bolder;color: black;font-size: 1.34vw;}
 .digital{background-color: rgb(10, 10, 88) ;width: auto;display: flex;flex-direction: column;
-align-items: center;justify-content: center;}
+align-items: center;justify-content: center;padding-bottom: 7vh;}
 .dintro{width:98.7vw; height: 100vh;}
 .mdcmp{display: flex;flex-direction: column;align-items: center;margin-top: 4vh;white-space: pre-line;}
 .mdcmp img{width: 55vw;height: 45vh;border-radius: 3.5vw; border-style: groove;margin-bottom: 2.5vh;}
@@ -141,7 +141,7 @@ color:#1a0a64;font-weight: bold;}
 
 
     .research{background-color: rgb(10, 10, 88) ;display: flex;flex-direction: column;
-    align-items: center;width: auto;}
+    align-items: center;width: auto;padding-bottom: 7vh;}
     .introres{height: 100vh;width:98.7vw;margin-bottom: 5vh;}
     .rintro{background-color: #0d5ac0;border-radius: 3.5vw;padding:2.5vh;font-style:oblique;width: 70vw;}
     .pintro{display: flex;flex-direction: column;align-items: center;justify-content: center;background-color: aliceblue;
@@ -175,7 +175,7 @@ color:#1a0a64;font-weight: bold;}
 .anim{height: 15vh;}
 
     .web{background-color: rgb(10, 10, 88) ;display: flex;flex-direction: column;
-    align-items: center;justify-content: center;width: auto;height: auto;}
+    align-items: center;justify-content: center;width: auto;height: auto;padding-bottom: 7vh;}
     .webintro{height: 100vh;width:98.7vw;}
     .webdet{display: flex;flex-direction: column;align-items: center;justify-content: center;height: auto;}
     .webtit{display: flex;flex-direction: row;align-items: center;justify-content: space-between;
@@ -225,7 +225,7 @@ color:#1a0a64;font-weight: bold;}
 
 
         .about{width: auto;height: auto;background-color: rgb(10, 10, 88);
-        display: flex;flex-direction: column;align-items: center;justify-content: center;}
+        display: flex;flex-direction: column;align-items: center;justify-content: center;padding-bottom: 7vh;}
         .aboutintro{height: 100vh;width:98.7vw;}
         .cont{width: 80vw;height: auto;display: flex;flex-direction: row;margin-top: 4vh;margin-bottom: 6vh;
                background-color: silver;
