@@ -15,6 +15,8 @@ export default function Dmrcmp({imgd}) {
            <li>ModelSim</li>
            <li>Clock Domain Crossing (CDC)</li>
            <li>Static Timing analysis (STA)</li>
+           <li>System Verilog</li>
+           <li>System Verilog Assertions</li>
            </ul>
             </div> :null}
         </div>

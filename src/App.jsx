@@ -28,7 +28,7 @@ function App() {
         <Route path='WebDevelopment' element={<Web/>}/>
         <Route path='ScientificResearch' element={<Research/>}/>
     </Routes>
-
+   <Botnav/>
   </Router> 
     </div>
   );
