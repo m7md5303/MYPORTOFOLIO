@@ -93,7 +93,7 @@ export default function Web() {
 </Fade>
 <Fade delay={200}>
 <div className='webtit'>
-<h2>Strong Points 👌</h2>
+<h2>Strength Points 👌</h2>
 <img src={sp}className='webgif'alt='Loading⏳'/>
 </div>
 </Fade>
