@@ -269,7 +269,7 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
 
           @media only screen and (max-width:768px){.m{height: 35vh;}
            .cv img{height:auto;}
-           .mnavbar{margin-top: -7vh;}
+           .mnavbar{margin-top: -12vh;padding: 0;}
            .navitem img{height: 3vh;}
            .mynavphoto{height: auto;}
            .introimg{height: auto;}
@@ -278,7 +278,7 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
            .lfcmp img{height: auto;}
            .lfcmp{height: auto;}
            .mnavbar{height: auto;}
-           .navbar{height: auto;}
+           .navbar{height: auto;padding: 0;}
            .homeimg1{height: auto;}
            .dintro{height: auto;}
            .mdcmp img{height: auto;}
@@ -289,8 +289,10 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
            .subyellow img{height: auto;}
            .subyellowc img{height: auto;}
            .wtxt{height: auto;}
+           .dlist{height: auto;}
+           .dskills{height: auto;}
            .wtxtr{height: auto;}
-           .pintro{width: 80vw;}
+           .pintro{width: 85vw;}
            .introres{height: auto;}
            .fintro img{height: auto;}
            .tintro img{height: auto;}
@@ -298,8 +300,12 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
            .pointro img {height: auto;}
            .webintro{height: auto;}
            .dlabnyc img{height: auto;}
+           .dlabnyc{align-items: center;}
+           .dredc{align-items: center;}
            .dredc img{height: auto;}
            .aboutintro{height: auto;}
-           .contactt img{height: auto;}
-           .botnav{height: auto;}
+           .contactt img{height:6vh;}
+           .botnav{height: 8vh;}
+           .masgif{height: auto;}
+           .qrgif{height: auto;}
           }
