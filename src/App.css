@@ -272,7 +272,7 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
            .subintrotitle{font-size:5vw;}
            .navitem a {font-size: 1.5vw;}
            .intro{padding: 1vw;padding-left: 2.5vw;width: auto;}
-           .navitem a:hover{font-size: 1.8vw;}
+           .navitem a:hover{font-size: 1.5vw;text-decoration: underline;}
            .subintrop{font-size:2.2vw;}
            .mnavbar{margin-top: -12vh;padding: 0;}
            .navitem img{height: 3vh;}
