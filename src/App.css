@@ -267,21 +267,53 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
 
 
 
-          @media only screen and (max-width:768px){.m{height: 35vh;}
+          @media only screen and (max-width:768px){.m{height: 33vh;}
            .cv img{height:auto;}
+           .subintrotitle{font-size:5vw;}
+           .navitem a {font-size: 1.5vw;}
+           .navitem a:hover{font-size: 1.8vw;}
+           .subintrop{font-size:2.5vw;}
            .mnavbar{margin-top: -12vh;padding: 0;}
            .navitem img{height: 3vh;}
            .mynavphoto{height: 0;}
            .introimg{height: auto;}
            .subpostintro img{height: 10vh;width: 8vw;}
-           .subpostintro h3{font-size:2.5vw ;}
+           .subpostintro h3{font-size:3.5vw ;}
+           .blue h3{font-size: 3vw;}
+           .blue p{font-size: 2vw;}
+           .blue a{font-size: 2vw;}
+           .yellow h3{font-size: 3vw;}
+           .yellow p{font-size: 2vw;}
+           .yellow a{font-size: 2vw;}
+           .bluec h3{font-size: 3vw;}
+           .bluec p{font-size: 2vw;}
+           .yellowc h3{font-size: 3vw;}
+           .yellowc p{font-size: 2vw;}
+          .pintro{font-size: 2.2vw;}
+          .fintro{font-size: 2.7vw;}
+          .reintro{font-size: 2.7vw;}
+          .pointro{font-size: 2.7vw;}
+          .reintro{font-size: 2.7vw;}
+          .wcor h3{font-size: 2.7vw;}
+          .wcor p{font-size: 1.8vw;}
+          .wcorb ul{font-size: 2vw;}
+          .mintro{font-size: 2.7vw;}
+          .webgif{height: auto;}
+          .webtit h2{font-size: 3.3vw;}
+          .wtxt p{font-size: 1.65vw;}
+          .wtxtr p{font-size: 1.65vw;}
            .lfcmp img{height: auto;}
            .lfcmp{height: auto;}
+           .lfcmp h4{font-size: 2.7vw;}
+           .lfcmp p{font-size: 1.7vw;}
            .mnavbar{height: auto;}
            .navbar{height: auto;padding: 0;}
            .homeimg1{height: auto;}
            .dintro{height: auto;}
            .mdcmp img{height: auto;}
+           .mdccmp button{font-size: 3vw;}
+           .mdcmp button{font-size: 3vw;}
+           .mdrcmp button{font-size: 3vw;}
            .mdrcmp img{height: auto;}
            .mdccmp img{height: auto;}
            .subblue img{height: auto;}
@@ -304,8 +336,14 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
            .dredc{align-items: center;}
            .dredc img{height: auto;}
            .aboutintro{height: auto;}
-           .contactt img{height:4vh;}
+           .contactt img{height:3.5vh;}
            .botnav{height: 6.5vh;}
            .masgif{height: auto;}
            .qrgif{height: auto;}
+           .conttxt h1{font-size: 3vw;}
+           .conttxt h3{font-size: 1.8vw;}
+           .conttxt p{font-size: 1.6vw;}
+           .contactt a{font-size: 1.35vw;}
+           .contactt h4{font-size: 1.35vw;}
+
           }
