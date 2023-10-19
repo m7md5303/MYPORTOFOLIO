@@ -271,8 +271,9 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
            .cv img{height:auto;}
            .subintrotitle{font-size:5vw;}
            .navitem a {font-size: 1.5vw;}
+           .intro{padding: 1vw;padding-left: 2.5vw;width: auto;}
            .navitem a:hover{font-size: 1.8vw;}
-           .subintrop{font-size:2.5vw;}
+           .subintrop{font-size:2.2vw;}
            .mnavbar{margin-top: -12vh;padding: 0;}
            .navitem img{height: 3vh;}
            .mynavphoto{height: 0;}
@@ -290,20 +291,21 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
            .yellowc h3{font-size: 3vw;}
            .yellowc p{font-size: 2vw;}
           .pintro{font-size: 2.2vw;}
-          .fintro{font-size: 2.7vw;}
-          .reintro{font-size: 2.7vw;}
-          .pointro{font-size: 2.7vw;}
-          .reintro{font-size: 2.7vw;}
+          .fintro{font-size: 2.3vw;}
+          .reintro{font-size: 2.3vw;}
+          .pointro{font-size: 2.3vw;}
+          .reintro{font-size: 2.3vw;}
+          .tintro{font-size: 2.3vw;}
           .wcor h3{font-size: 2.7vw;}
           .wcor p{font-size: 1.8vw;}
           .wcorb ul{font-size: 2vw;}
-          .mintro{font-size: 2.7vw;}
+          .mintro{font-size: 2.5vw;}
           .webgif{height: auto;}
           .webtit h2{font-size: 3.3vw;}
           .wtxt p{font-size: 1.65vw;}
           .wtxtr p{font-size: 1.65vw;}
            .lfcmp img{height: auto;}
-           .lfcmp{height: auto;}
+           .lfcmp{height: auto;padding: 1vw;padding-left: 1.5vw;}
            .lfcmp h4{font-size: 2.7vw;}
            .lfcmp p{font-size: 1.7vw;}
            .mnavbar{height: auto;}
