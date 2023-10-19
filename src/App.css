@@ -267,45 +267,31 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
 
 
 
-          /*@media only screen and (max-width:1200px){
-            .mnavbar{margin:-18.5vw;height: 20vh;width: 100vw;}
-            .navitem{width: 15vw;}
-            .navitem a{font-size: 1.7vw;}
-            .navitem a:hover{font-size: 1.7vw;}
-            .mynavphoto{width: 0;height: 0;}
-            .home{width: auto;}
-            .homeimg1{width: 98.7vw;}
-            .intro{width: 95vw;}
-            .subintrotitle{font-size:6vw;}
-            .subintrop{font-size: 2.5vw;}
-            .postintro{width: 95vw;margin: 0;}
-            .lfcmp{width: 95vw;}
-            .lfcmp h4{font-size: 4vw;}
-            .lfcmp p{font-size: 2.3vw;width: 40vw;}
-            .lfcmp img{width: 45vw;}
-            .mdcmp button{font-size: 3vw;}
-            .mdrcmp button{font-size: 3vw;}
-            .mdccmp button{font-size: 3vw;}
-            .blue{width: 85vw;margin-left:0 ;margin-right: 0;}
-            .blue h3{font-size: 4vw;}
-            .blue p{font-size: 2.2vw;}
-            .blue a{font-size: 1.9vw;}
-            .blue img{width:50vw;height: 30vh;}
-            .yellow{width: 85vw;margin-left:0 ;margin-right: 0;}
-            .yellow h3{font-size: 4vw;}
-            .yellow p{font-size: 2.2vw;}
-            .yellow a{font-size: 1.9vw;}
-            .yellow img{width: 50vw;height: 30vh;}
-            .dskills{width: 95vw;height: auto;}
-            .dlist{width: 80vw;font-size: 2.4vw;height: 30vh;}
-            .bluec{width: 85vw;margin-left:0 ;margin-right: 0;}
-            .bluec h3{font-size: 4vw;}
-            .bluec p{font-size: 2.2vw;}
-            .bluec a{font-size: 1.9vw;}
-            .bluec img{width: 45vw;height: 40vh;}
-            .yellowc{width: 85vw;margin-left:0 ;margin-right: 0;}
-            .yellowc h3{font-size: 4vw;}
-            .yellowc p{font-size: 2.2vw;}
-            .yellowc a{font-size: 1.9vw;}
-            .yellowc img{width: 45vw;height: 40vh;}
-          }*/
+          @media only screen and (max-width:768px){
+           .cv img{height:auto;}
+           .mnavbar{margin-top: 0;}
+           .mynavphoto{height: auto;}
+           .introimg{height: auto;}
+           .subpostintro img{height: auto;}
+           .lfcmp img{height: auto;}
+           .homeimg1{height: auto;}
+           .dintro{height: auto;}
+           .mdcmp img{height: auto;}
+           .mdrcmp{height: auto;}
+           .mdccmp{height: auto;}
+           .subblue img{height: auto;}
+           .subbluec img{height: auto;}
+           .subyellow{height: auto;}
+           .subyellowc{height: auto;}
+           .dlist{width: auto;}
+           .introres{height: auto;}
+           .fintro img{height: auto;}
+           .tintro img{height: auto;}
+           .reintro img{height: auto;}
+           .pointro{height: auto;}
+           .webintro{height: auto;}
+           .dlabnyc img{height: auto;}
+           .dredc img{height: auto;}
+           .aboutintro{height: auto;}
+           .contactt img{height: auto;}
+          }
