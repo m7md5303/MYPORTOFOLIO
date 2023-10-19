@@ -271,7 +271,7 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
            .cv img{height:auto;}
            .mnavbar{margin-top: -12vh;padding: 0;}
            .navitem img{height: 3vh;}
-           .mynavphoto{height: auto;}
+           .mynavphoto{height: 0;}
            .introimg{height: auto;}
            .subpostintro img{height: 10vh;}
            .subpostintro h3{font-size:2.5vw ;}
@@ -289,7 +289,7 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
            .subyellow img{height: auto;}
            .subyellowc img{height: auto;}
            .wtxt{height: auto;}
-           .dlist{height: auto;}
+           .dlist{height: auto;width: 70vw;}
            .dskills{height: auto;}
            .wtxtr{height: auto;}
            .pintro{width: 85vw;}
@@ -304,8 +304,8 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
            .dredc{align-items: center;}
            .dredc img{height: auto;}
            .aboutintro{height: auto;}
-           .contactt img{height:6vh;}
-           .botnav{height: 8vh;}
+           .contactt img{height:4vh;}
+           .botnav{height: 6.5vh;}
            .masgif{height: auto;}
            .qrgif{height: auto;}
           }
