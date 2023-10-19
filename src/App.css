@@ -267,31 +267,39 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
 
 
 
-          @media only screen and (max-width:768px){
+          @media only screen and (max-width:768px){.m{height: 35vh;}
            .cv img{height:auto;}
-           .mnavbar{margin-top: 0;}
+           .mnavbar{margin-top: -7vh;}
+           .navitem img{height: 3vh;}
            .mynavphoto{height: auto;}
            .introimg{height: auto;}
-           .subpostintro img{height: auto;}
+           .subpostintro img{height: 10vh;}
+           .subpostintro h3{font-size:2.5vw ;}
            .lfcmp img{height: auto;}
+           .lfcmp{height: auto;}
+           .mnavbar{height: auto;}
+           .navbar{height: auto;}
            .homeimg1{height: auto;}
            .dintro{height: auto;}
            .mdcmp img{height: auto;}
-           .mdrcmp{height: auto;}
-           .mdccmp{height: auto;}
+           .mdrcmp img{height: auto;}
+           .mdccmp img{height: auto;}
            .subblue img{height: auto;}
            .subbluec img{height: auto;}
-           .subyellow{height: auto;}
-           .subyellowc{height: auto;}
-           .dlist{width: auto;}
+           .subyellow img{height: auto;}
+           .subyellowc img{height: auto;}
+           .wtxt{height: auto;}
+           .wtxtr{height: auto;}
+           .pintro{width: 80vw;}
            .introres{height: auto;}
            .fintro img{height: auto;}
            .tintro img{height: auto;}
            .reintro img{height: auto;}
-           .pointro{height: auto;}
+           .pointro img {height: auto;}
            .webintro{height: auto;}
            .dlabnyc img{height: auto;}
            .dredc img{height: auto;}
            .aboutintro{height: auto;}
            .contactt img{height: auto;}
+           .botnav{height: auto;}
           }
