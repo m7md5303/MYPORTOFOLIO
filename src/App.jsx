@@ -15,7 +15,7 @@ import Botnav from './Components/Botnav';
 function App() {
 
   return (
-    <div className='main' onLoadCapture={()=>{if(show)alv();}}>
+    <div className='main' >
       <Router >
         <Navbar/>
       <Routes>
