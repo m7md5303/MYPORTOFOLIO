@@ -13,8 +13,7 @@ import About from './Components/About';
 import Error from './Components/Error';
 import Botnav from './Components/Botnav';
 function App() {
-  const [show,setShow]=useState(true); 
-  const alv=()=>{{setShow(false);alert("For proper view rotate your phone to landscape view🔄 however, PC 💻would be better😃.");  }}
+
   return (
     <div className='main' onLoadCapture={()=>{if(show)alv();}}>
       <Router >

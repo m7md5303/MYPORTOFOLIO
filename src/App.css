@@ -273,7 +273,7 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
            .navitem img{height: 3vh;}
            .mynavphoto{height: 0;}
            .introimg{height: auto;}
-           .subpostintro img{height: 10vh;}
+           .subpostintro img{height: 10vh;width: 8vw;}
            .subpostintro h3{font-size:2.5vw ;}
            .lfcmp img{height: auto;}
            .lfcmp{height: auto;}
