@@ -277,7 +277,7 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
            .mnavbar{margin-top: -12vh;padding: 0;}
            .navitem img{height: 3vh;}
            .mynavphoto{height: 0;}
-           .introimg{height: auto;}
+           .introimg{height: auto;border-radius: 4vw;}
            .subpostintro img{height: 10vh;width: 8vw;}
            .subpostintro h3{font-size:3.5vw ;}
            .blue h3{font-size: 3vw;}
@@ -338,7 +338,7 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
            .dredc{align-items: center;}
            .dredc img{height: auto;}
            .aboutintro{height: auto;}
-           .contactt img{height:3.5vh;}
+           .contactt img{height:3.5vh;width: 3.2vw;}
            .botnav{height: 6.5vh;}
            .masgif{height: auto;}
            .qrgif{height: auto;}
