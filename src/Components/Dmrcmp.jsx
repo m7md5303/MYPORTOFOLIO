@@ -13,10 +13,13 @@ export default function Dmrcmp({imgd}) {
            <li>Digital Design flow using Vivado Tool</li>
            <li>Field Programmable gate array (FPGA)</li>
            <li>ModelSim</li>
+           <li>QuestaSim</li>
+           <li>System Verilog (SV)</li>
+           <li>System Verilog Assertions (SVA)</li>
+           <li>Universal Verification Methodology (UVM)</li>
            <li>Clock Domain Crossing (CDC)</li>
            <li>Static Timing analysis (STA)</li>
-           <li>System Verilog</li>
-           <li>System Verilog Assertions</li>
+           
            </ul>
             </div> :null}
         </div>
