@@ -110,9 +110,9 @@ padding-top: 0;height: auto;margin-top: 2.9vh;}
   .subyellow img{width: 35vw;height: 40vh;}
 
 
-  .dskills{background-color: gold;width: 83vw;height: auto;border-radius: 4vw;
+  .dskills{background-color: gold;width: 87vw;height: auto;border-radius: 4vw;
   display: flex;flex-direction: column;align-items: center;margin-top: 3vh;}
-  .dlist{background-color: gainsboro;width: 78vw;border-radius: 4vw;height: 40vh;display: flex;
+  .dlist{background-color: gainsboro;width: 83vw;border-radius: 4vw;height: 40vh;display: flex;
   flex-direction: column;flex-wrap: wrap;font-size: 2vw;align-items: start;justify-content: center;
 color:#1a0a64;font-weight: bold;}
 .dlist li{margin-bottom: 1vh;}
