@@ -127,7 +127,7 @@ color:#1a0a64;font-weight: bold;}
   .bluec a:hover{text-decoration: underline;}
   
   .subbluec{display: flex;flex-direction: row;justify-content: space-between;padding-right: 1.5vw;}
-  .subbluec img{width: 30vw;height: 40vh;}
+  .subbluec img{width: 30vw;height: 50vh;}
   
   .yellowc{background-color: gold;display: flex;flex-direction: column;border-radius: 4vw;padding-left: 1.5vw;
     padding-top: 0;height: auto;margin-top: 2.9vh;width: 84vw;}
@@ -137,7 +137,7 @@ color:#1a0a64;font-weight: bold;}
     .yellowc a:hover{text-decoration: underline;}
     
     .subyellowc{display: flex;flex-direction: row;justify-content: space-between;padding-right: 1.5vw;}
-    .subyellowc img{width: 30vw;height: 60vh;}
+    .subyellowc img{width: 30vw;height: 50vh;}
 
 
 
