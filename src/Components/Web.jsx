@@ -69,13 +69,13 @@ export default function Web() {
 </div>
 <Fade delay={200}>
 <div className='masweb'>
-<h2> 3-My Portofolio</h2>
+<h2> 3-My Portfolio</h2>
 <img src={pi}className='masgif'alt='Loading⏳'/>
 </div>
 </Fade>
 <Fade delay={200}>
 <div className='masdet'>
-<Dlabnyc title={"M.K. Portofolio"}img={por}para={"Definitely. My portoflio is-of course-one of my projects. It is implemented by ReactJS and Css. It aims to well explain my past experience to a sufficient degree. I won't talk too much and let you explore😉."}/>
+<Dlabnyc title={"M.K. Portfolio"}img={por}para={"Definitely. My portflio is-of course-one of my projects. It is implemented by ReactJS and Css. It aims to well explain my past experience to a sufficient degree. I won't talk too much and let you explore😉."}/>
 </div>
 </Fade>
 </div>
