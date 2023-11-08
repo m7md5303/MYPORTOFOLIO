@@ -63,8 +63,8 @@ export default function About() {
         </div>
         <div className='contitem'>
             <h3>German</h3>
-            <p>In progress through A2.2-level provided by Goethe Institute in Cairo</p>
-            <p>Completed A1.2,A1.3 & A2.1 levels provided by Goethe Institue in Cairo with Grade 1 (87%-100%).</p>
+            
+            <p>Completed A1.2, A1.3, A2.1 & A2.2 levels provided by Goethe Institue in Cairo.</p>
         </div>
        </div>
 <img src={lancintro}alt='Loading⏳'/>
