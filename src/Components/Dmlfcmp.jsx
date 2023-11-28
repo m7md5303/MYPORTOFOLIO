@@ -6,7 +6,7 @@ import spi from '../Images/spi.png'
 import dsp from '../Images/sca.png'
 import riskv from '../Images/Capture2.PNG'
 import alsu from '../Images/alsu_schematic_q1.png'
-import alsv from '../Images/als.jpeg'
+import alsv from '../Images/als.png'
 import Dyellow from './Dyellow';
 export default function Dmlfcmp({imgd}) {
     const [show,setShow]=useState(false);  
