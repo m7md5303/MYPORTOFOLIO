@@ -9,7 +9,7 @@ export default function Botnavitem({tit1,img1,linka,img2,tit2,sh}) {
     return (
         <div>{sh?
 <div className='contactt'>
-    <h4>{tit1}</h4>
+    <a href="mailto:m7md5303@gmail.com">{tit1}</a>
     <img src={img1} />
 </div>:
 <div className='contactt'>
