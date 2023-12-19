@@ -257,7 +257,7 @@ color:#1a0a64;font-weight: bold;}
 background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;border-top-style: solid;font-weight: bold;}
 .botit{display: flex;flex-direction: row;align-items: center;justify-content: space-between;width: 90vw;}
 .contactt{display: flex;flex-direction: row-reverse;align-items: center;justify-content: center;width:auto;}
-.contactt a{text-decoration: none;color: white;font-size: 1.2vw;}
+.contactt a{text-decoration: underline;color: white;font-size: 1.2vw;}
 .contactt h4{text-decoration: none;color: white;font-size: 1.2vw;}
 .contactt img{width: 3vw;height: 5vh;margin-right: 0.3vw;}
 .contactt a:hover{cursor: pointer;text-decoration: underline;}
