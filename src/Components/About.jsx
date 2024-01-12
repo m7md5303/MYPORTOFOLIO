@@ -2,7 +2,7 @@ import React from 'react'
 import { Fade } from "react-awesome-reveal";
 import aboutintro from '../Images/221599040_2344784828985632_1616524411177325289_n.jpg'
 import eduintro from '../Images/wallpaperflare.com_wallpape.jpg'
-import lanintro from '../Images/arabic.png'
+import lanintro from '../Images/lang.jpeg'
 import lancintro from '../Images/pxfu.jpg'
 import hobyntro from '../Images/wallb.jpg'
 import techintro from '../Images/technology-2082642-1200x675.jpg'
