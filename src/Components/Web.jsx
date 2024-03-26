@@ -1,9 +1,12 @@
 import React from 'react'
-
+import mekkapic from '../Images/mekka.gif';
   import { Fade } from "react-awesome-reveal";
   import Dlabnyc from './Dlabnyc';
   import Dredc from './Dredc';
 import webintro from '../Images/web.jpg'
+import mskdes from '../Images/u1.png'
+import mskprog from '../Images/u2.png'
+import mskcont from '../Images/u3.png'
 import sp from '../Images/WiqK.gif'
 import webGif from '../Images/6ELx.gif';
 import masGif from '../Images/fxU6.gif';
@@ -35,7 +38,24 @@ export default function Web() {
 </Fade>
 <Fade delay={200}>
 <div className='masweb'alt='Loading⏳'>
-<h2> 1-Front & Back ends implementation of a template for a travelling and car renting company</h2>
+<h2> 1-Hij and Umrah Company Section Webpage</h2>
+<img src={mekkapic}className='masgif'alt='Loading⏳'/>
+</div>
+</Fade>
+<div className='masdet'>
+<Fade delay={200}>
+  <Dredc title={"Project Describtion"} img={mskdes} para={"The webpage mainly involves the company's umrah programs. It gives also a brief describtion for the company and its activity with giving the ability to the customers to register through a google form available in the page."}/>
+</Fade>
+<Fade delay={200}>
+  <Dredc title={"Program Holder"} img={mskprog}para={"Each program is put in a specified box with showing clearly both Mekka's and Al-Madina's hotels along with the determined dates for each. The price for each person is added so that this module can be sufficient for customers to know enough information about the program."}/>
+</Fade>
+<Fade delay={200}>
+  <Dredc title={"Contact Box"} img={mskcont}para={"The company contact channels are provided in this module. There also exists a link by which the customer can directly send an email."}/>
+</Fade>
+</div>
+<Fade delay={200}>
+<div className='masweb'alt='Loading⏳'>
+<h2> 2-Front & Back ends implementation of a template for a travelling and car renting company</h2>
 <img src={masGif}className='masgif'alt='Loading⏳'/>
 </div>
 </Fade>
@@ -55,7 +75,7 @@ export default function Web() {
 </div>
 <Fade delay={200}>
 <div className='masweb'>
-<h2> 2-QR Attendance App Interface</h2>
+<h2> 3-QR Attendance App Interface</h2>
 <img src={qrg}className='qrgif'alt='Loading⏳'/>
 </div>
 </Fade>
@@ -69,7 +89,7 @@ export default function Web() {
 </div>
 <Fade delay={200}>
 <div className='masweb'>
-<h2> 3-My Portfolio</h2>
+<h2> 4-My Portfolio</h2>
 <img src={pi}className='masgif'alt='Loading⏳'/>
 </div>
 </Fade>

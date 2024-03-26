@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import Dbluec from './Dbluec';
 import Dyellowc from './Dyellowc';
-import dd from '../Images/ecer.jpeg'
+import dd from '../Images/imtcer.jpeg'
 import ie from '../Images/b.jpeg'
 export default function Emlfccmp({imgd}) {
     const [show,setShow]=useState(false);  

@@ -8,6 +8,7 @@ import project from '../Images/WhatsApp Image 2023-08-25 at 4.03.33 AM.jpeg'
 import educ from '../Images/WhatsApp Image 2023-08-25 at 4.06.07 AM.jpeg'
 import skill from '../Images/WhatsApp Image 2023-08-25 at 4.06.07 AM (1).jpeg'
 import cont from '../Images/WhatsApp Image 2023-08-28 at 4.07.07 AM.jpeg'
+import exp from '../Images/exphome.webp'
 import cv from '../Images/cv.png'
 import Lfcmp from './Lfcmp';
 export default function Home() {
@@ -44,6 +45,7 @@ export default function Home() {
       <div className='subpostintro'>
    <h3>What can you find here?</h3>
    <img src={thinking}/></div>
+   <Lfcmp title={'Experience'} para={'My Work experience timeline is mentioned with specifying my role nature in each as well as the organization.'}img={exp}/>
    <Lfcmp title={'Education'} para={'My educational Phases are available for those who are interested. Also most of Courses I have taken are present with a brief describtion for each. '} img={educ}/>
    <Lfcmp title={'Projects'} para={'You can find easily most of the projects I worked in. They are mostly related to Digital Electronics, Embedded Systems and Web Development. \nFor those who are interested, links of many of these projects on github are found in their specified place and can be easily viewed...by just few clicks.'} img={project}/>
    <Lfcmp title={'Skills'} para={'Skills gained throughout the journey are added to be explored. They vary between technical and non-technical skills. On each page, you will find the skills related to the page topic; in order to be well organised among the website.'}img={skill}/>

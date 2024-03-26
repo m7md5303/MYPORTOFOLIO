@@ -55,7 +55,7 @@ export default function Research() {
       </div>
       </div>
    <div className='mintro'>
-I had participated also in the 7th engineering research forum with another team and with a different topic "Internet Search Ranking Algorithms". It was a nice experience and provided me with 
+I have participated also in the 7th engineering research forum with another team and with a different topic "Internet Search Ranking Algorithms". It was a nice experience and provided me with 
 special skills that I used in the next-year forum. Additionally, my school teachers sometimes asked us to do small researches on miscellaneous topics. 
    </div>
         </div>    

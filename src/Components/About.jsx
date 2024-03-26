@@ -1,6 +1,7 @@
 import React from 'react'
 import { Fade } from "react-awesome-reveal";
 import aboutintro from '../Images/221599040_2344784828985632_1616524411177325289_n.jpg'
+import expintro from '../Images/expabout.jpeg'
 import eduintro from '../Images/wallpaperflare.com_wallpape.jpg'
 import lanintro from '../Images/lang.jpeg'
 import lancintro from '../Images/pxfu.jpg'
@@ -19,6 +20,17 @@ export default function About() {
       <div className='about'>
         {window.scrollTo(0,0)}
 <img src={aboutintro} className='aboutintro'alt='Loading⏳'/><Fade delay={200}>
+<div className='cont'>
+       <div className='conttxt'>
+        <h1>Experience📝</h1>
+        <div className='contitem'>
+            <h3>Al-Massa International Travel group-Hij and Umrah Section    (Nov 2023-Feb 2024)</h3>
+            <p>Front-End Web Developer: Implementing and designing the copmany section webpage with managaing and updating the website data when needed</p>
+        </div>
+       </div>
+<img src={expintro}alt='Loading⏳'/>
+
+        </div>
         <div className='cont'>
        <div className='conttxt'>
         <h1>Education🎓</h1>
@@ -73,7 +85,7 @@ export default function About() {
 
         <div className='cont'>
        <div className='conttxt'>
-        <h1>Non-technical Skills⚙️</h1>
+        <h1>Personal Skills⚙️</h1>
         <div className='contitem'>
             <h3>-Leadership</h3>
             <h3>-Critical Thinking</h3>
@@ -105,7 +117,7 @@ export default function About() {
     <div className='cvtxt'>
 <h1>My C.V.</h1>
 <p>Eventually, you can easily view my updated C.V. from the link below.😃</p>
-<Link to="https://drive.google.com/file/d/1hN6z2wmUGNZtFBqwQ7IK-4wKjnvQQkXP/view?usp=sharing">M.K. C.V. </Link>
+<Link to="https://drive.google.com/file/d/14McwiHK5H12uExUS_IZi2J-yhxPYLWq7/view?usp=sharing">M.K. C.V. </Link>
     </div>
     <img src={cv}alt='Loading⏳'/>
 </div>
