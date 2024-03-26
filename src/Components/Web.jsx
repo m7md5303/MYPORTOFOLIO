@@ -37,7 +37,7 @@ export default function Web() {
 </div>
 </Fade>
 <Fade delay={200}>
-<div className='masweb'alt='Loading⏳'>
+<div className='qrdet'alt='Loading⏳'>
 <h2> 1-Hij and Umrah Company Section Webpage</h2>
 <img src={mekkapic}className='masgif'alt='Loading⏳'/>
 </div>
