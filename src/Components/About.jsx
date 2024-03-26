@@ -25,7 +25,7 @@ export default function About() {
         <h1>Experience📝</h1>
         <div className='contitem'>
             <h3>Al-Massa International Travel group-Hij and Umrah Section    (Nov 2023-Feb 2024)</h3>
-            <p>Front-End Web Developer: Implementing and designing the copmany section webpage with managaing and updating the website data when needed</p>
+            <p>Front-End Web Developer: Implementing and designing the company section webpage with managaing and updating the website data when needed.</p>
         </div>
        </div>
 <img src={expintro}alt='Loading⏳'/>
