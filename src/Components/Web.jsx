@@ -37,12 +37,12 @@ export default function Web() {
 </div>
 </Fade>
 <Fade delay={200}>
-<div className='qrdet'alt='Loading⏳'>
+<div className='masweb'alt='Loading⏳'>
 <h2> 1-Hij and Umrah Company Section Webpage</h2>
 <img src={mekkapic}className='masgif'alt='Loading⏳'/>
 </div>
 </Fade>
-<div className='masdet'>
+<div className='qrdet'>
 <Fade delay={200}>
   <Dredc title={"Project Describtion"} img={mskdes} para={"The webpage mainly involves the company's umrah programs. It gives also a brief describtion for the company and its activity with giving the ability to the customers to register through a google form available in the page."}/>
 </Fade>
