@@ -117,7 +117,7 @@ export default function About() {
     <div className='cvtxt'>
 <h1>My C.V.</h1>
 <p>Eventually, you can easily view my updated C.V. from the link below.😃</p>
-<Link to="https://drive.google.com/file/d/14McwiHK5H12uExUS_IZi2J-yhxPYLWq7/view?usp=sharing">M.K. C.V. </Link>
+<Link to="https://drive.google.com/file/d/1WWDWqHG6okYhq7N8T8Xepcod4pqY4mpx/view?usp=sharing">M.K. C.V. </Link>
     </div>
     <img src={cv}alt='Loading⏳'/>
 </div>
