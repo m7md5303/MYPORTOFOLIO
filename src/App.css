@@ -58,7 +58,7 @@ border-top-right-radius: 10vw;list-style: none;padding: 0;padding-top: 0.5vh;}
 .navbar:hover{background-color: #3077e0;}
 .mnavbar{height: 15vh;display: flex;flex-direction: row;width: 98vw; position: sticky;z-index: 9999;top:0;right: 0;left: 0;
 align-items: center;margin: -3.1vw;height: 13vh;justify-content: space-around;}
-.mynavphoto{width: 6.5vw;height: 14.5vh;margin: 0;margin-left: 1vw;}
+.mynavphoto{width: 6.5vw;height: 0vh;margin: 0;margin-left: 1vw;}
 .postintro{background-color: rgb(255, 208, 0);margin-left: 2vw;border-top-left-radius: 4vw ;border-top-right-radius: 4vw ;padding: 1vw;
   border-bottom-left-radius: 4vw ;border-bottom-right-radius: 4vw ;height: auto;width: 70vw;}
 .subpostintro{display: flex;flex-direction: row;font-size: 5vh;color: aliceblue;
