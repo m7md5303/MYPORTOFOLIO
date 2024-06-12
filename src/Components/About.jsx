@@ -59,7 +59,7 @@ export default function About() {
         </div>
         <div className='contitem'>
             <h3>German</h3>
-            <p>Fair</p>
+            <p>Pre-Intermediate</p>
         </div>
        </div>
 <img src={lanintro}alt='Loading⏳'/>
@@ -76,7 +76,7 @@ export default function About() {
         <div className='contitem'>
             <h3>German</h3>
             
-            <p>Completed A1.2, A1.3, A2.1 & A2.2 levels provided by Goethe Institue in Cairo.</p>
+            <p>Completed A1.2, A1.3, A2 levels provided by Goethe Institue in Cairo.</p>
         </div>
        </div>
 <img src={lancintro}alt='Loading⏳'/>
@@ -117,7 +117,7 @@ export default function About() {
     <div className='cvtxt'>
 <h1>My C.V.</h1>
 <p>Eventually, you can easily view my updated C.V. from the link below.😃</p>
-<Link to="https://drive.google.com/file/d/1-mjXAVXHIPBuwuNSBb44vloFxpyrY1A0/view?usp=sharing">M.K. C.V. </Link>
+<Link to="https://drive.google.com/file/d/16mXAG84m6zTx_JmFMRLrM15sdiyycvo6/view?usp=drive_open">M.K. C.V. </Link>
     </div>
     <img src={cv}alt='Loading⏳'/>
 </div>
