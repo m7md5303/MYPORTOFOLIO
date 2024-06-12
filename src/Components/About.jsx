@@ -59,7 +59,7 @@ export default function About() {
         </div>
         <div className='contitem'>
             <h3>German</h3>
-            <p>Pre-Intermediate</p>
+            <p>Pre-Intermediate Level</p>
         </div>
        </div>
 <img src={lanintro}alt='Loading⏳'/>
