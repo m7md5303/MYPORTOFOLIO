@@ -10,7 +10,8 @@ export default function Dmrcmp({imgd}) {
             {show? <div className='dskills'>
            <ul className='dlist'>
            <li>Verilog</li>
-           <li>Digital Design flow using Vivado Tool</li>
+           <li>FPGA flow using Vivado Tool</li>
+           <li>FPGA flow using Quartus Tool</li>
            <li>Field Programmable gate array (FPGA)</li>
            <li>ModelSim</li>
            <li>QuestaSim</li>
