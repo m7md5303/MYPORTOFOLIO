@@ -21,12 +21,18 @@ export default function About() {
         {window.scrollTo(0,0)}
 <img src={aboutintro} className='aboutintro'alt='Loading⏳'/><Fade delay={200}>
 <div className='cont'>
+    
        <div className='conttxt'>
         <h1>Experience📝</h1>
+        <div className='contitem'>
+            <h3>Digital Verification diploma using SV & UVM instructor assistant    (August 2024-present)</h3>
+            <p>The diploma instructor is Eng/Kareem Waseem. I am sharing in the assistants' team through marking assignments, answering queries along with contributing in the sessions exercise questions.</p>
+        </div>
         <div className='contitem'>
             <h3>Al-Massa International Travel group-Hij and Umrah Section    (Nov 2023-Feb 2024)</h3>
             <p>Front-End Web Developer: Implementing and designing the company section webpage with managaing and updating the website data when needed.</p>
         </div>
+        
        </div>
 <img src={expintro}alt='Loading⏳'/>
 
@@ -117,7 +123,7 @@ export default function About() {
     <div className='cvtxt'>
 <h1>My C.V.</h1>
 <p>Eventually, you can easily view my updated C.V. from the link below.😃</p>
-<Link to="https://drive.google.com/file/d/194X55rgImSPr8CBJq3UgZmyuC6FxC7o7/view?usp=sharing">M.K. C.V. </Link>
+<Link to="https://drive.google.com/file/d/1eo98VJ0bvmSWJyAaMbYcGq2oxt_MhN2r/view?usp=sharing">M.K. C.V. </Link>
     </div>
     <img src={cv}alt='Loading⏳'/>
 </div>
