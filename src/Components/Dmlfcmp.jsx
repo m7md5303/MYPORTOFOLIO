@@ -10,6 +10,7 @@ import alsu from '../Images/alsu_schematic_q1.png'
 import alsv from '../Images/als.png'
 import absdc from '../Images/sdc1.png'
 import pipe from '../Images/pipeimg.png'
+import w16sch from '../Images/w16sch.png'
 import alublk from '../Images/alu_blks.png'
 import Dyellow from './Dyellow';
 export default function Dmlfcmp({imgd}) {
@@ -20,6 +21,7 @@ export default function Dmlfcmp({imgd}) {
             <img src={imgd}alt='Loading⏳'/>
             <button onClick={()=>{setShow(!show)}} >{show? "Hide" :"Show"} </button>
             {show? <div className='projects'>
+      <Dblue title={"16-bit Wallace multiplier"} para={"16-bit Wallace multiplier implemented with Verilog and synthesised using Design Compiler tool. The functionality was checked using a simple testbench simulated on QuestaSim. The block mainly consists of sub blocks of just half and full adders."} img={w16sch} linka={"https://github.com/m7md5303/16-bit-wallace-multiplier"}/>
       <Dyellow title={"Pipelined Risk-v based Processor"} para={"A 5-stage pipelined risk-v based processor implemented with verilog along with the implementation of a hazard handling unit. The stages are Fetch, decode, execute, memory and write back cycles. The functionality was tested through QuestaSim while the schematic was produced using Quartus Prime tool."} img={pipe} linka={"https://github.com/m7md5303/Pipelined-Risk-V-based-processor"}/>
       <Dblue title={"4-operation ALU using Vivado block design method"} para={"The ALU was designed using the block design method provided by Vivado. The multiplier IP was added from Vivado IP list while the other blocks were designed using Verilog. A simple SystemVerilog testbench was simulated on Vivado to validate the functionality. The whole flow till generating the bitstream can be viewed from the pdf uploaded on the design repo on GitHub."} img={alublk}linka={"https://github.com/m7md5303/ALU-with-Vivado-block-design-method"}/>
       <Dyellow title={"SDC file for two blocks"}para={"SDC file concerned with timings in two blocks: A and B. It sets the max delays for both input and output ports. Creation of clocks and generating clock signals from their origin are also included. It also excludes false paths from being analyzed to save runtime in the STA concerned tools."}img={absdc}linka={"https://github.com/m7md5303/AB_SDC"}/>
