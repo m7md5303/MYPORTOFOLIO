@@ -25,7 +25,7 @@ export default function About() {
        <div className='conttxt'>
         <h1>Experience📝</h1>
         <div className='contitem'>
-            <h3>Digital Verification diploma using SV & UVM instructor assistant    (August 2024-present)</h3>
+            <h3>Digital Verification diploma using SV & UVM T.A.   (August 2024-present)</h3>
             <p>The diploma instructor is Eng/Kareem Waseem. I am sharing with the assistants' team in marking assignments, answering queries along with contributing in the sessions exercise questions.</p>
         </div>
         <div className='contitem'>
