@@ -20,6 +20,7 @@ export default function Dmrcmp({imgd}) {
            <li>Universal Verification Methodology (UVM)</li>
            <li>Clock Domain Crossing (CDC)</li>
            <li>Static Timing analysis (STA)</li>
+           <li>Tool Command Language (TCL)</li>
            
            </ul>
             </div> :null}
