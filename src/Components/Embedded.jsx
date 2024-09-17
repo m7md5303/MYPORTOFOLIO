@@ -14,13 +14,13 @@ export default function Embedded() {
        <div className='digital'>
          {window.scrollTo(0,0)}
         <img className='dintro' src={intro}alt='Loading⏳'/>
-        <Fade delay={200}>
+
         <div className='dcontainer'>
-      <Emlfcmp imgd={projimg} /> 
-      <Emrcmp imgd={skillimg} /> 
-      <Emlfccmp imgd={courseimg} /> 
+      <Fade delay={200}><Emlfcmp imgd={projimg} /> </Fade>
+      <Fade delay={200}><Emrcmp imgd={skillimg} /> </Fade>
+      <Fade delay={200}><Emlfccmp imgd={courseimg} /> </Fade>
         </div>
-        </Fade>
+        
        </div>
         
     )

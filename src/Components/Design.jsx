@@ -15,13 +15,13 @@ export default function Design() {
        <div className='digital'>
          {window.scrollTo(0,0)}
         <img className='dintro' src={intro}alt='Loading⏳'/>
-        <Fade delay={200}>
+        
         <div className='dcontainer'>
-      <Dmlfcmp imgd={projimg} /> 
-      <Dmrcmp imgd={skillimg} /> 
-      <Dmlfccmp imgd={courseimg} /> 
+        <Fade delay={200}><Dmlfcmp imgd={projimg} /> </Fade>
+        <Fade delay={200}><Dmrcmp imgd={skillimg} /> </Fade>
+        <Fade delay={200}> <Dmlfccmp imgd={courseimg} /> </Fade>
         </div>
-        </Fade>
+        
        </div>
         
     )
