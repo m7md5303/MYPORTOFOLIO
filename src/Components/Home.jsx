@@ -45,13 +45,14 @@ export default function Home() {
       <div className='subpostintro'>
    <h3>What can you find here?</h3>
    <img src={thinking}/></div>
+   <Fade delay={200}>
    <Lfcmp title={'Experience'} para={'My Work experience timeline is mentioned with specifying my role nature in each as well as the organization.'}img={exp}/>
    <Lfcmp title={'Education'} para={'My educational Phases are available for those who are interested. Also most of Courses I have taken are present with a brief describtion for each. '} img={educ}/>
    <Lfcmp title={'Projects'} para={'You can find easily most of the projects I worked in. They are mostly related to Digital Electronics, Embedded Systems and Web Development. \nFor those who are interested, links of many of these projects on github are found in their specified place and can be easily viewed...by just few clicks.'} img={project}/>
    <Lfcmp title={'Skills'} para={'Skills gained throughout the journey are added to be explored. They vary between technical and non-technical skills. On each page, you will find the skills related to the page topic; in order to be well organised among the website.'}img={skill}/>
    <Lfcmp title={'Contact Info.'}para={'My email, social media accounts links are available also. Provided any questions or queries are present you can easily message me through one of the available means. '} img={cont}/>
    <Lfcmp title={'CV'} para={"Eventually, my CV link is added to the website to be available for anyone who became interested while surfing through the pages or already is. You can easily access it through the added link. " } img={cv}/>
-    </div>
+   </Fade></div>
     
 
 
