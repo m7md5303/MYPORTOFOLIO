@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import { Fade } from "react-awesome-reveal";
 import intro from '../Images/Picsart_23-09-01_03-43-42-438.jpg'
 import projimg from '../Images/Picsart_23-09-01_16-22-18-095.jpg'
 import skillimg from '../Images/Picsart_23-09-02_02-19-11-790.jpg'
@@ -14,12 +15,13 @@ export default function Design() {
        <div className='digital'>
          {window.scrollTo(0,0)}
         <img className='dintro' src={intro}alt='Loading⏳'/>
- 
+        <Fade delay={200}>
         <div className='dcontainer'>
       <Dmlfcmp imgd={projimg} /> 
       <Dmrcmp imgd={skillimg} /> 
       <Dmlfccmp imgd={courseimg} /> 
         </div>
+        </Fade>
        </div>
         
     )

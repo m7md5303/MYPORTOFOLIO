@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Fade } from "react-awesome-reveal";
 import { TypeAnimation } from 'react-type-animation';
 import introimg from '../Images/WhatsApp Image 2021-04-03 at 4.30.47 PM.jpeg'
 import sumimg from '../Images/IMG_20220729_014025_795.jpg'
@@ -17,7 +17,7 @@ export default function Home() {
         
       <div className='home' >
          {window.scrollTo(0,0)}
-   
+         <Fade delay={200}>
         <img src={introimg} className='homeimg1' alt='Loading⏳'/>
         <TypeAnimation
         sequence={[
@@ -55,7 +55,7 @@ export default function Home() {
     
 
 
-
+</Fade>
 
       </div>
     

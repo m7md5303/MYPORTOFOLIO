@@ -1,5 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
+import { Fade } from "react-awesome-reveal";
 import {
     BrowserRouter as Router, Route, Link, Routes
   } from "react-router-dom";
@@ -27,6 +28,7 @@ export default function Research() {
         ,marginBottom:'12vh',marginLeft:'7.5vw'}}
         repeat={Infinity}
       /></div>
+      <Fade delay={200}>
       <div className='pintro'>
       <h1>The 8th engineering scientific forum</h1>
       <div className='fintro'>
@@ -57,7 +59,7 @@ export default function Research() {
    <div className='mintro'>
 I have participated also in the 7th engineering research forum with another team and with a different topic "Internet Search Ranking Algorithms". It was a nice experience and provided me with 
 special skills that I used in the next-year forum. Additionally, my school teachers sometimes asked us to do small researches on miscellaneous topics. 
-   </div>
+   </div></Fade>
         </div>    
         
     )

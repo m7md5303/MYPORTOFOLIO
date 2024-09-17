@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import { Fade } from "react-awesome-reveal";
 import Dblue from './Dblue';
 import scc from '../Images/q2sca.png'
 import spi from '../Images/spi.png'
@@ -21,7 +22,7 @@ export default function Dmlfcmp({imgd}) {
         <div className='mdcmp'>
             <img src={imgd}alt='Loading⏳'/>
             <button onClick={()=>{setShow(!show)}} >{show? "Hide" :"Show"} </button>
-            {show? <div className='projects'>
+            {show?<Fade delay={200}> <div className='projects'>
       <Dyellow title={"MK5303 Processor"} para={"Design of Three address instruction-format processor with register, direct, indirect and immediate addressing modes. I have also designed the processor instruction set with a simple documentation for its datasheet. The schematic was produced using Vivado tool and the functionality was checked using QuestaSim tool. The project was implemented using Verilog"} img={mkp} linka={"https://github.com/m7md5303/MK5303-Processor"}/>
       <Dblue title={"16-bit Wallace multiplier"} para={"16-bit Wallace multiplier implemented with Verilog and synthesised using Design Compiler tool. The functionality was checked using a simple testbench simulated on QuestaSim. The block mainly consists of sub blocks of just half and full adders."} img={w16sch} linka={"https://github.com/m7md5303/16-bit-wallace-multiplier"}/>
       <Dyellow title={"Pipelined Risk-v based Processor"} para={"A 5-stage pipelined risk-v based processor implemented with verilog along with the implementation of a hazard handling unit. The stages are Fetch, decode, execute, memory and write back cycles. The functionality was tested through QuestaSim while the schematic was produced using Quartus Prime tool."} img={pipe} linka={"https://github.com/m7md5303/Pipelined-Risk-V-based-processor"}/>
@@ -36,7 +37,7 @@ export default function Dmlfcmp({imgd}) {
       <Dblue title={"Simple moore machine for self driving car control system Design"} para={"A simple moore self driving car control system. The system is responsible for accelerating, decelerating or even braking up the car. It is also capable of providing a signal to lock or unlock the doors. The system was implemented with verilog and tested with a simple testbench simulated by questasim tool. The schematic was generated with Vivado tool."} img={scc} linka={"https://github.com/m7md5303/S_S_D_C_C"}/>
       
       
-            </div> :null}
+            </div></Fade> :null}
         </div>
     )
 }
