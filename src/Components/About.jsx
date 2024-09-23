@@ -26,7 +26,7 @@ export default function About() {
         <h1>Experience📝</h1>
         <div className='contitem'>
             <h3>Digital Verification diploma using SV & UVM T.A.   (August 2024-present)</h3>
-            <p>The diploma instructor is Eng/Kareem Waseem. I am sharing with the assistants' team in marking assignments, answering queries along with contributing in the sessions exercise questions.</p>
+            <p>The diploma instructor is Eng/Kareem Waseem. I am sharing with the assistants' team in marking assignments, debugging students' codes, answering queries along with contributing in the sessions exercise questions.</p>
         </div>
         <div className='contitem'>
             <h3>Al-Massa International Travel group-Hij and Umrah Section    (Nov 2023-Feb 2024)</h3>

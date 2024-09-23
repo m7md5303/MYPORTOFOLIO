@@ -13,6 +13,7 @@ import absdc from '../Images/sdc1.png'
 import pipe from '../Images/pipeimg.png'
 import w16sch from '../Images/w16sch.png'
 import mkp from '../Images/schematic_mk.png'
+import sonar from '../Images/soundwaves.jpg'
 import alublk from '../Images/alu_blks.png'
 import Dyellow from './Dyellow';
 export default function Dmlfcmp({imgd}) {
@@ -23,6 +24,7 @@ export default function Dmlfcmp({imgd}) {
             <img src={imgd}alt='Loading⏳'/>
             <button onClick={()=>{setShow(!show)}} >{show? "Hide" :"Show"} </button>
             {show? <div className='projects'>
+      <Fade delay={200}><Dblue title={"Design and Verification for Ultrasonic Sytsem"} para={"I have contributed in an ultrasonic-zynq based-system with strongly participating in the top module UVM environment developing along with the stimulus generation. Verification of the system decoder using SV and SVA. Design of the receiving block in the control unit besides the storage RAM for the same block. The waveforms were generated using QuestaSim."} img={sonar} linka={"https://github.com/m7md5303/DV-UltrasonicSystem"} /> </Fade>
       <Fade delay={200}><Dyellow title={"MK5303 Processor"} para={"Design of Three address instruction-format processor with register, direct, indirect and immediate addressing modes. I have also designed the processor instruction set with a simple documentation for its datasheet. The schematic was produced using Vivado tool and the functionality was checked using QuestaSim tool. The project was implemented using Verilog"} img={mkp} linka={"https://github.com/m7md5303/MK5303-Processor"}/></Fade>
       <Fade delay={200}><Dblue title={"16-bit Wallace multiplier"} para={"16-bit Wallace multiplier implemented with Verilog and synthesised using Design Compiler tool. The functionality was checked using a simple testbench simulated on QuestaSim. The block mainly consists of sub blocks of just half and full adders."} img={w16sch} linka={"https://github.com/m7md5303/16-bit-wallace-multiplier"}/></Fade>
       <Fade delay={200}><Dyellow title={"Pipelined Risk-v based Processor"} para={"A 5-stage pipelined risk-v based processor implemented with verilog along with the implementation of a hazard handling unit. The stages are Fetch, decode, execute, memory and write back cycles. The functionality was tested through QuestaSim while the schematic was produced using Quartus Prime tool."} img={pipe} linka={"https://github.com/m7md5303/Pipelined-Risk-V-based-processor"}/></Fade>
