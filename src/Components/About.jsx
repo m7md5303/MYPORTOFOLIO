@@ -29,7 +29,7 @@ export default function About() {
             <p>The diploma instructor is Eng/Kareem Waseem. I am sharing with the assistants' team in marking assignments, debugging students' codes, answering queries along with contributing in the sessions exercise questions.</p>
         </div>
         <div className='contitem'>
-            <h3>Al-Massa International Travel group-Hij and Umrah Section    (Nov 2023-Feb 2024)</h3>
+            <h3>Al-Massa International Travel group-Hij and Umrah Section    (Nov 2023-Feb 2024) </h3>
             <p>Front-End Web Developer: Implementing and designing the company section webpage with managaing and updating the website data when needed.</p>
         </div>
         
