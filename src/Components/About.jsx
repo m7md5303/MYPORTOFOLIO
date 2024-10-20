@@ -25,7 +25,7 @@ export default function About() {
        <div className='conttxt'>
         <h1>Experience📝</h1>
         <div className='contitem'>
-            <h3>Digital Verification diploma using SV & UVM T.A.   (August 2024-present)</h3>
+            <h3>Digital Verification diploma using SV & UVM T.A.   (August 2024-October 2024)</h3>
             <p>The diploma instructor is Eng/Kareem Waseem. I am sharing with the assistants' team in marking assignments, debugging students' codes, answering queries along with contributing in the sessions exercise questions.</p>
         </div>
         <div className='contitem'>
@@ -123,7 +123,7 @@ export default function About() {
     <div className='cvtxt'>
 <h1>My C.V.</h1>
 <p>Eventually, you can easily view my updated C.V. from the link below.😃</p>
-<Link to="https://drive.google.com/file/d/1u-1goAEPA7qmfT_iSERfHSXSAlnLQsqk/view?usp=sharing">M.K. C.V. </Link>
+<Link to="https://drive.google.com/file/d/1WX68XqneveRM5j_DfM9ahbcE9t8d9XWq/view?usp=sharing">M.K. C.V. </Link>
     </div>
     <img src={cv}alt='Loading⏳'/>
 </div>
