@@ -61,7 +61,7 @@ export default function About() {
         </div>
         <div className='contitem'>
             <h3>English</h3>
-            <p>Intermediate Level</p>
+            <p>Upper-Intermediate Level</p>
         </div>
         <div className='contitem'>
             <h3>German</h3>
@@ -76,8 +76,8 @@ export default function About() {
         <h1>Language Courses📘</h1>
         <div className='contitem'>
             <h3>English</h3>
-            <p>In progress through B1-level provided by the British Council in Egypt.</p>
-            <p>Completed A2-level provided by the British Council in Egypt.</p>
+            <p>In progress through B2-level provided by the British Council in Egypt.</p>
+            <p>Completed A2, B1-levels provided by the British Council in Egypt.</p>
         </div>
         <div className='contitem'>
             <h3>German</h3>
@@ -123,7 +123,7 @@ export default function About() {
     <div className='cvtxt'>
 <h1>My C.V.</h1>
 <p>Eventually, you can easily view my updated C.V. from the link below.😃</p>
-<Link to="https://drive.google.com/file/d/1WX68XqneveRM5j_DfM9ahbcE9t8d9XWq/view?usp=sharing">M.K. C.V. </Link>
+<Link to="https://drive.google.com/file/d/1VbSDz7AbV5XC_Uy8pPBGI89XsS92dU-r/view?usp=sharing">M.K. C.V. </Link>
     </div>
     <img src={cv}alt='Loading⏳'/>
 </div>
