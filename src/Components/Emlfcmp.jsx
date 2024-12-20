@@ -8,6 +8,7 @@ import dsp from '../Images/temp.png'
 import riskv from '../Images/do.png'
 import alsu from '../Images/st.png'
 import flex from '../Images/flex.jpeg'
+import shome from '../Images/smarthome.jpeg'
 import Dyellow from './Dyellow';
 import Dbluec from './Dbluec';
 export default function Emlfcmp({imgd}) {
@@ -18,6 +19,7 @@ export default function Emlfcmp({imgd}) {
             <img src={imgd}alt='Loading⏳'/>
             <button onClick={()=>{setShow(!show)}} >{show? "Hide" :"Show"} </button>
             {show? <div className='projects'>
+      <Fade delay={200}><Dblue title={"Smart Home"} para={"Smart Home based on Atmega32 with locking system, light and temperature controlling. The code was written with C programming language"} img={shome} linka={"https://github.com/m7md5303/atmega32_smarthome"}/></Fade>
       <Fade delay={200}><Dyellow title={"Flex-sensor-based Lock"}para={"A door lock based on values determined through flex sensor position. I was responsible for the coding and hardware implementation of the lock controller determining whether opening or no as well as giving the option when the password is correct to reclose again through a sliding switch. It was implemented using C programming, Atmega 32 controller, servo motor, switch and LEDs"}img={flex}linka={"https://github.com/m7md5303/Lock-controller"}/></Fade>
       <Fade delay={200}><Dblue title={"4 operation-calculator"} para={"A 4-operation Calculator {Addition, Subtraction, Multiplication, Division} with an accuracy reaching 4-digits after the decimal point. It was implemented with C programming language and uploaded to Atmega 32 controller. The other compenents used were:\n-Charachter LCD.\n-4x4 Keypad."} img={spi} linka={"https://github.com/m7md5303/4ops_4float_calc"}/></Fade>
       <Fade delay={200}><Dyellow title={"Temprature Sensor"} para={"LM35 Temp. Sensor was used with Atmega 32 controller ADC peripheral in order to read the surrounding temprature. The temprature then is to be displayed on a Charachter LCD. As the temp reaches 40 or more, a connected LED is to light out. The project was implemented with C programming Language."} img={dsp} linka={"https://github.com/m7md5303/Tempsensor"}/></Fade>
