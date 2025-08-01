@@ -22,6 +22,7 @@ export default function Dmrcmp({imgd}) {
            <li>Clock Domain Crossing (CDC)</li>
            <li>Static Timing analysis (STA)</li>
            <li>Tool Command Language (TCL)</li>
+           <li>Familiar with HW/SW Co-design flow using Xilinx tools</li>
            
            </ul>
             </div></Fade>  :null}
