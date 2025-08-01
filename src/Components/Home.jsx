@@ -33,7 +33,7 @@ export default function Home() {
       <div className='intro'>
     <div className='subintro'>
       <h3 className='subintrotitle'>Self Introduction</h3>
-      <p className='subintrop'>My name is Mohamed Khaled. I am 21 years old. I live in Giza. I am studying now at Cairo university faculty of engineering.
+      <p className='subintrop'>My name is Mohamed Khaled. I am 22 years old. I live in Giza. I graduated from Cairo university faculty of engineering batch 2025.
         My major is Electronics and Electrical Communications. I am interested in Digital Electronics, scientific research and further more.
         For more details don't hesitate to explore my website.
       </p>
