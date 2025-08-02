@@ -123,7 +123,7 @@ export default function About() {
     <div className='cvtxt'>
 <h1>My C.V.</h1>
 <p>Eventually, you can easily view my updated C.V. from the link below.😃</p>
-<Link to="https://drive.google.com/file/d/1HlWXtrXljqdYOpXl53Wjuypp5TSqfFq2/view?usp=drive_linkk">M.K. C.V. </Link>
+<Link to="https://drive.google.com/file/d/1p2cEW7D5NyrgDNsRU-z5nre_1JoLo9Lv/view?usp=sharing">M.K. C.V. </Link>
     </div>
     <img src={cv}alt='Loading⏳'/>
 </div>
