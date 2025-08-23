@@ -15,7 +15,14 @@ import w16sch from '../Images/w16sch.png'
 import mkp from '../Images/schematic_mk.png'
 import sonar from '../Images/soundwaves.jpg'
 import alublk from '../Images/alu_blks.png'
+import imgcrp from '../Images/imgcrp.png'
+import i2cimg from '../Images/i2c.png'
+import sscuimg from '../Images/sscusch.png'
+import rgbimg from '../Images/cnrtrsch.png'
+import csiimg from '../Images/csi2.png'
+import sysbd from '../Images/Sys bd.png'
 import Dyellow from './Dyellow';
+import Dyellowc from './Dyellowc';
 export default function Dmlfcmp({imgd}) {
     const [show,setShow]=useState(false);  
 
@@ -24,6 +31,12 @@ export default function Dmlfcmp({imgd}) {
             <img src={imgd}alt='Loading⏳'/>
             <button onClick={()=>{setShow(!show)}} >{show? "Hide" :"Show"} </button>
             {show? <div className='projects'>
+      <Fade delay={200}><Dblue title={"Pure Hardware YOLO Inference"} para={"Pure Hardware-based Inference for YOLO network. The system relies mainly on the IP accelerator generated using FINN framework and the post-processing responsible for detecting the results was performed using a Verilog-based module. The system was trained on a cars dataset and its duty is to determine if a car exists or not and at which grid in the 416 x 416 image. The target board was ZCU102 while PYNQ-Z2 was used for testing purposes and for visualizing the results."} img={sysbd} linka={"https://github.com/m7md5303/pure-hardware-YOLO-inference"}/></Fade>
+      <Fade delay={200}><Dyellowc title={"HW/SW Co-design-based Image Processing Pipeline"} para={"An image processing piepline implemened based on Xilinx IPs targetting the ZCU102 board. Vivado and Vitis tools were used for integrating the HW and SW Parts. Additionally, I have used AXI VIP for HW/SW Co-verification for the IPs responsible for the image processing. The system was enhanced with read and write buffer IPs from Xilinx for Real-time purposes."} img={csiimg}/></Fade>
+      <Fade delay={200}><Dblue title={"RGB to Grey Converter with AXI-Stream Interface"} para={"Image processing block that converts input RGB pixels into grey ones in one clock cycle only. It has the ability to receive one pixel from its input AXI-Stream interface each clock and generate the converted one using AXI-Stream protocol as well. The conversion process is free of floating point calculations. The accurace was more than 90% based on the results from the ~95% coverage-achieving testbench. SVA besides the main testbench were used to check the validity of the design."} img={rgbimg} linka={"https://github.com/m7md5303/RGB2gray-converter"}/></Fade>
+      <Fade delay={200}><Dyellow title={"Speed and Steering Control Unit"} para={"Speed and steering control unit implemented with Verilog. Its main application is to control vehicles on highways. It has 13 x 13 input grid to know at which grid in the input image is having an obstacle. It is also in need to know the number of lanes, the current lane index and its boundaries through its input ports. The module was verified using System Verilog through a coverage-driven testbench"} img={sscuimg} linka={"https://github.com/m7md5303/verilog_vehicle_motion_control"}/></Fade>
+      <Fade delay={200}><Dblue title={"I2C Master controller for single-master-single-slave bus"} para ={"I2c master controller that was implemented using Verilog and its schematic was generated using Vivado. The block is for initializing the SI1145 light sensor. The design is accompanied with a clock divider to suit the sensor clock. The master has the ability to do both write and read operations."} img={i2cimg} linka={"https://github.com/m7md5303/master-i2c-verilog"}/></Fade>
+      <Fade delay={200}><Dyellow title={"Image height cropper"} para={"Verilog module that crops the image height, given the receiving block is AXI_Stream-slave interfaced. It has the flexibility to crop from whether the top of the image or the bottom or even both with just configuring the module parameters"} img={imgcrp} linka={"https://github.com/m7md5303/image_height_crop"}/></Fade>
       <Fade delay={200}><Dblue title={"Design and Verification for Ultrasonic Sytsem"} para={"I have contributed in an ultrasonic-zynq based-system with strongly participating in the top module UVM environment developing along with the stimulus generation. Verification of the system decoder using SV and SVA. Design of the receiving block in the control unit besides the storage RAM for the same block. The waveforms were generated using QuestaSim."} img={sonar} linka={"https://github.com/m7md5303/DV-UltrasonicSystem"} /> </Fade>
       <Fade delay={200}><Dyellow title={"MK5303 Processor"} para={"Design of Three address instruction-format processor with register, direct, indirect and immediate addressing modes. I have also designed the processor instruction set with a simple documentation for its datasheet. The schematic was produced using Vivado tool and the functionality was checked using QuestaSim tool. The project was implemented using Verilog"} img={mkp} linka={"https://github.com/m7md5303/MK5303-Processor"}/></Fade>
       <Fade delay={200}><Dblue title={"16-bit Wallace multiplier"} para={"16-bit Wallace multiplier implemented with Verilog and synthesised using Design Compiler tool. The functionality was checked using a simple testbench simulated on QuestaSim. The block mainly consists of sub blocks of just half and full adders."} img={w16sch} linka={"https://github.com/m7md5303/16-bit-wallace-multiplier"}/></Fade>
