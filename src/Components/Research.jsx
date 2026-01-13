@@ -9,6 +9,11 @@ import {
   import report from '../Images/Screenshot_2023-09-09-03-31-32-367_com.google.android.apps.docs.png'
   import poster from '../Images/Screenshot_2023-09-09-03-55-40-043_com.google.android.apps.docs.png'
   import mypho from '../Images/Screenshot_2023-09-09-03-20-03-556_com.brave.browser.png'
+  import meic from '../Images/meic.jpg'
+  import disic from '../Images/disic.jpg'
+  import ceric from '../Images/ceric.jpg'
+   import laar from '../Images/laar.png'
+import { color } from 'framer-motion';
 export default function Research() {
     
 
@@ -19,16 +24,53 @@ export default function Research() {
             <img src={introres} className='introres'alt='Loading⏳'/>
         <div className='rintro'> <TypeAnimation
         sequence={[
-          `Although I haven't participated in many projects related to scientific research, each one had its own taste and added to me special experience accompanied with pleasing skills. The researches didn't have to be related exactly to my industry field.\n   As you will see my best participation in a scientific research project, the project title was "Air Pollution"!`,
-          1000,
-          "",
+          `Although I haven't participated in many projects related to scientific research, each one had its own taste and added to me special experience accompanied with pleasing skills. The researches didn't have to be related exactly to my industry field.\n`
         ]}
-        speed={30}
+        speed={50}
         style={{ whiteSpace: 'pre-line', fontSize: '1.8em', color: 'white' 
         ,marginBottom:'12vh',marginLeft:'7.5vw'}}
-        repeat={Infinity}
+        repeat={1}
+        loop = {false}
       /></div>
-      
+    {/* Icecs */}
+          <div className='pintro' >
+      <h1>International Conference on Electronics, Circuits and Systems 2025 &#40;ICECS'25&#41;</h1>
+      <Fade delay={200}><div className='fintro'>
+       <p>Submitting a paper that was later accepted to one of the IEEE Conferences was a fascinating milestone. But presenting it abroad was more astonishing event. At ICECS'25, held at Marrakesh, Morocco, I had the pleasure to present and co-author one of the 172 acccepted papers out of 250 submitted papers. </p>
+       <img src={meic}alt='Loading⏳'/>
+      </div></Fade>
+      <Fade delay={200}><div className='pointro'>
+      <div className='retext'>
+        <p>
+       This paper titled by "Pure-Hardware YOLO-Inference via FPGAs" introduced a YOLO-Inference technique that is to the authors' knowledge first project using this approach. It presents a totally Hardware-dependent inference based on the Programmable Logic (PL) side of the FPGA without any intervention from any kind of software or HW/SW Co-design.
+        </p>
+       <Link to={"https://ieeexplore.ieee.org/document/11270746"}>Click here to view the Paper</Link>
+      </div>
+      <img src={disic}alt='Loading⏳'/>
+      </div></Fade>
+      <Fade delay={200}><div className='reintro'>
+        <div className='retextp'>
+          <p>The good news is that the project is open source on GitHub where you can easily explore the codes and the documentation of the project on the repository. Feel free to adda any issues provided any enquiries. </p>
+          <Link to={"https://github.com/m7md5303/pure-hardware-YOLO-inference"}>Click here to view the GitHub Repository</Link>       
+        </div>
+        <img src={ceric}alt='Loading⏳'/>
+      </div></Fade>
+      </div>
+    {/* end of Icecs */}
+
+    {/* lane */}
+      <div className='pintro' >
+      <h1>arXiv Platform published Papers</h1>
+      <Fade delay={200}><div className='reintro'>
+        <div className='retextp'>
+       <p>"FPGA-based Lane Detection System incorporating Temperature and Light Control Units" tackles an abstract model for an autonomous system for smart cars. The system uses Sobel Edge detection filter built on FPGA with extra I2C-based Light and temperature control units. </p>
+       <Link to={"https://github.com/m7md5303/pure-hardware-YOLO-inference"}>Click here to view the Paper</Link>
+       </div>
+       <img src={laar}alt='Loading⏳'/>
+       </div>
+       </Fade>
+      </div>
+    {/* end of lane */}      
       <div className='pintro'>
       <h1>The 8th engineering scientific forum</h1>
       <Fade delay={200}><div className='fintro'>

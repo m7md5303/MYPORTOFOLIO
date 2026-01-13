@@ -25,7 +25,18 @@ export default function About() {
        <div className='conttxt'>
         <h1>Experience📝</h1>
         <div className='contitem'>
-            <h3>Digital Design and Verification T.A.   (Aug 2024-Oct 2024), (Jun 2025-Present)</h3>
+            <h3>Sub-Contractor FPGA Engineer at Symbiotic EDA (Dec 2025-Present)</h3>
+        </div>
+        <div className='contitem'>
+           <h3>LLM-Intern (Dec 2025-Jan 2026)</h3>
+           <p>The internship is provided by Tips Hindawi. Interns were to get hands-on experience with LLM models thorugh preparing RAG systems, parsing users'input and getting familiar with langchain framework.</p>
+        </div>
+        <div className='contitem'>
+            <h3>Part-time Environmental and Automation Engineer (Aug 2025-Present)</h3>
+            <p>The position is at GreenPluse Environmental Solutions. I am responsible for getting the meterological data using the WRF model through utilizing appropriate shell scripts. I am co-operating in Environmental Modellings and preparing reports.</p>
+        </div>
+        <div className='contitem'>
+            <h3>Digital Design and Verification T.A.   (Aug 2024-Oct 2024), (Jun 2025-Nov 2025)</h3>
             <p>The diploma instructor is Eng/Kareem Waseem. I am sharing with the assistants' team in marking assignments, debugging students' codes, answering queries along with contributing in the sessions exercise questions.</p>
         </div>
         <div className='contitem'>
@@ -40,6 +51,10 @@ export default function About() {
         <div className='cont'>
        <div className='conttxt'>
         <h1>Education🎓</h1>
+        <div className='contitem'>
+            <h3>Cairo University-Faculty Of Engineering     (2025-Present)</h3>
+            <p>Master Degree at Electronics &  Electrical Communications Department (Electronics and Computer Specialization)</p>
+        </div>
         <div className='contitem'>
             <h3>Cairo University-Faculty Of Engineering     (2020-2025)</h3>
             <p>Major in Electronics &  Electrical Communications</p>
@@ -123,7 +138,7 @@ export default function About() {
     <div className='cvtxt'>
 <h1>My C.V.</h1>
 <p>Eventually, you can easily view my updated C.V. from the link below.😃</p>
-<Link to="https://drive.google.com/file/d/1nrXuHW0HEwFKEF7081oMb8APK17tF7SZ/view?usp=sharing">M.K. C.V. </Link>
+<Link to="https://drive.google.com/file/d/1V05ETsZPFgHB2RycxVFT1rE76VzHiphJ/view?usp=sharing">M.K. C.V. </Link>
     </div>
     <img src={cv}alt='Loading⏳'/>
 </div>

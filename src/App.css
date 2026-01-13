@@ -111,11 +111,11 @@ padding-top: 0;height: auto;margin-top: 2.9vh;}
 
 
   .dskills{background-color: gold;width: 87vw;height: auto;border-radius: 4vw;
-  display: flex;flex-direction: column;align-items: center;margin-top: 3vh;}
-  .dlist{background-color: gainsboro;width: 83vw;border-radius: 4vw;height: 45vh;display: flex;
+  display: flex;flex-direction: column;align-items: center;margin-top: 3vh;  flex-wrap: wrap;}
+  .dlist{background-color: gainsboro;width: 83vw;border-radius: 4vw;height: auto;display: flex;
   flex-direction: column;flex-wrap: wrap;font-size: 2vw;align-items: start;justify-content: center;
 color:#1a0a64;font-weight: bold;}
-.dlist li{margin-bottom: 1vh;}
+.dlist li{margin-bottom: 1vh;margin-right: 3vw;}
 
 
 
@@ -146,7 +146,8 @@ color:#1a0a64;font-weight: bold;}
     .introres{height: 100vh;width:98.7vw;margin-bottom: 5vh;}
     .rintro{background-color: #0d5ac0;border-radius: 3.5vw;padding:2.5vh;font-style:oblique;width: 70vw;}
     .pintro{display: flex;flex-direction: column;align-items: center;justify-content: center;background-color: aliceblue;
-    height: auto;width: 75vw;margin-top: 3vh;border-radius: 3vw;color:#041731;font-size: 1.55vw;}
+    height: auto;width: 75vw;margin-top: 3vh;border-radius: 3vw;color:#041731;font-size: 1.55vw;margin-bottom: 
+    7vh;}
     .fintro{width: 72vw;height: auto;background-color: #07316b;border-radius: 3vw;
     display: flex;flex-direction: row;align-items: start;justify-content: space-around;
   color:white;font-size: 1.7vw;padding: 2vh;margin-bottom: 3vh;}

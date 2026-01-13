@@ -8,7 +8,7 @@ export default function Dmrcmp({imgd}) {
         <div className='mdrcmp'>
             <img src={imgd}alt='Loading⏳'/>
             <button onClick={()=>{setShow(!show)}} >{show? "Hide" :"Show"} </button>
-            {show?<Fade delay={200}><div className='dskills'>
+            {show?<Fade delay={200}><div className='dskills'> 
            <ul className='dlist'>
            <li>Verilog</li>
            <li>FPGA flow using Vivado Tool</li>

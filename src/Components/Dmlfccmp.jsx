@@ -4,6 +4,7 @@ import { Fade } from "react-awesome-reveal";
 import Dbluec from './Dbluec';
 import Dyellowc from './Dyellowc';
 import dd from '../Images/descer.png'
+import als from '../Images/als.jpeg'
 import ie from '../Images/ieee.jpeg'
 import ver from '../Images/ver.png'
 import nn from '../Images/nncertificate.jpeg'
@@ -17,6 +18,7 @@ export default function Dmlfccmp({imgd}) {
             <img src={imgd}alt='Loading⏳'/>
             <button onClick={()=>{setShow(!show)}} >{show? "Hide" :"Show"} </button>
             {show? <div className='dcourses'>
+       <Fade delay={200}><Dbluec title={"SOC Verification using System Verilog"} para={"The course was on Udemy platform. It was concerned with System verilog essentials and the way of creating a custom verification environment. It covered OOP basics and System Verilog threads as well."} img={als}/></Fade>
        <Fade delay={200}><Dyellowc title={"Learn to build OVM & UVM Testbenches from scratch"} para={"The course was introduced by Udemy platform. It covered the UVM structure and components. The course included UVM concepts such as TLM ports and FIFOs as well along with inter-communication between the UVM components."} img={uvm}/></Fade>
        <Fade delay={200}><Dbluec title={"Advanced VLSI Design: ASIP Design and implementation course"} para={"The course was provided by the Electronics Research Institute. It covered:\n-Application Specific Instruction-Set Processors (ASIP) Design and implementation.\nDigital Synthesis using Design Compiler tool.\n-Post-synthesis Simulation using QuestaSim.\n-Power analysis using saif files.\n-Some famous arithmetic circuits: CPA, CSA, CLA, array and Wallace multipliers."} img={asip}/></Fade>
        <Fade delay={200}><Dyellowc title={"ASIC Diploma"} para={"The Diploma was provided by NajahNow Co.. I have submitted all the required assignments disciplined with their deadlines. The course covered RTL to GDS flow through: \n-Contrasting the difference between FPGA and ASIC flow. \n-Introducing lib files and flavors used for cells. \n-STA and interpretation of timing reports along with timing violations solution techniques.\n-Floorplanning, power planning, placement, routing and CTS. \n-Chip signoffs as well as physical verification and EMIR calculations. \n-Introduction to DFT, SDC and formal verification. \n-Introduction to DC, ICC and Prime Time tools. "}img={nn} /></Fade>        
