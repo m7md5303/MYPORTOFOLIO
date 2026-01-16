@@ -270,7 +270,6 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
 
           @media only screen and (max-width:768px){.m{height: 33vh;width: 77vw;}
            .cv img{height:auto;}
-           .exp { height: 37vh;}
            .subintrotitle{font-size:5vw;}
            .navitem a {font-size: 1.5vw;}
            .intro{padding: 1vw;padding-left: 2.5vw;width: auto;}
@@ -349,5 +348,6 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
            .conttxt p{font-size: 1.9vw;}
            .contactt a{font-size: 1.55vw;}
            .contactt h4{font-size: 1.55vw;}
+           .cont img{height: 37vh;}
 
           }
