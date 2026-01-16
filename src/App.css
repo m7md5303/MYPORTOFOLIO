@@ -270,7 +270,7 @@ background-color: #3077e0;width: 98.75vw;height: 11vh;border-top-color:gold;bord
 
           @media only screen and (max-width:768px){.m{height: 33vh;width: 77vw;}
            .cv img{height:auto;}
-           .exp {max-height: auto;}
+           .exp {max-height: 37 vh;}
            .subintrotitle{font-size:5vw;}
            .navitem a {font-size: 1.5vw;}
            .intro{padding: 1vw;padding-left: 2.5vw;width: auto;}
