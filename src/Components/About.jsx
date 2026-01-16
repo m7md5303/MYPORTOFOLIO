@@ -45,7 +45,7 @@ export default function About() {
         </div>
         
        </div>
-<img src={expintro}alt='Loading⏳' style={{maxHeight:'75vh'}} />
+<img src={expintro}alt='Loading⏳' style={{maxHeight:'75vh'}} className='exp'/>
 
         </div>
         <div className='cont'>
