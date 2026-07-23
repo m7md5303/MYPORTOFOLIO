@@ -28,20 +28,22 @@ export default function About() {
             <h3>RTL Design Engineer at Symbiotic EDA (Dec 2025-Present)</h3>
         </div>
         <div className='contitem'>
+            <h3>External TA at Cairo University Faculty of Engineering (Feb 2026-Present)</h3>
+        </div>
+        <div className='contitem'>
+            <h3>Hardware/Software Co-design Instructor - Self Employed (July 2026-Present)</h3>
+        </div>
+        <div className='contitem'>
            <h3>LLM-Intern (Dec 2025-Jan 2026)</h3>
-           <p>The internship is provided by Tips Hindawi. Interns were to get hands-on experience with LLM models thorugh preparing RAG systems, parsing users'input and getting familiar with langchain framework.</p>
         </div>
         <div className='contitem'>
             <h3>Part-time Environmental and Automation Engineer (Aug 2025-Feb 2026)</h3>
-            <p>The position is at GreenPluse Environmental Solutions. I am responsible for getting the meterological data using the WRF model through utilizing appropriate shell scripts. I am co-operating in Environmental Modellings and preparing reports.</p>
         </div>
         <div className='contitem'>
             <h3>Digital Design and Verification T.A.   (Aug 2024-Oct 2024), (Jun 2025-Nov 2025)</h3>
-            <p>The diploma instructor is Eng/Kareem Waseem. I am sharing with the assistants' team in marking assignments, debugging students' codes, answering queries along with contributing in the sessions exercise questions.</p>
         </div>
         <div className='contitem'>
             <h3>Al-Massa International Travel group-Hij and Umrah Section    (Nov 2023-Feb 2024) </h3>
-            <p>Front-End Web Developer: Implementing and designing the company section webpage with managaing and updating the website data when needed.</p>
         </div>
         
        </div>
@@ -138,7 +140,7 @@ export default function About() {
     <div className='cvtxt'>
 <h1>My C.V.</h1>
 <p>Eventually, you can easily view my updated C.V. from the link below.😃</p>
-<Link to="https://drive.google.com/file/d/1j8HCvdRGT0is1EGNhdaKSdVla1XUBcWL/view">M.K. C.V. </Link>
+<Link to="https://drive.google.com/file/d/1qSDYw742u7-tEkGJL07MTdLTFM2O5m55/view?usp=sharing">M.K. C.V. </Link>
     </div>
     <img src={cv}alt='Loading⏳'/>
 </div>
