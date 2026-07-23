@@ -36,9 +36,9 @@ export default function Research() {
 
       <div className='pintro'>
         <h1>2026 IEEE International Conference on Smart Sustainable Systems for Computer and Engineering Applications (3SCEA)</h1>
-        <Fade delay={200}><div className='fintro'>
+        <Fade delay={200}><div className='reintro'><div className='retext'>
         <p>SV2 Analyzer: a complete open-source LLM-based framework specialized in helping Digital Verification Engineers through the 5 modes it provides to the user: Interpretation, Enhancments Suggestions, Catching Potential Flaws, asking questions and testbench parsing. I had the pleasure to present this work after a rigorous peer-review for the paper by the conference reviewers. </p>
-        <Link to={"https://ieeexplore.ieee.org/document/11602718"}>Click here to view the Paper</Link>
+        <Link to={"https://ieeexplore.ieee.org/document/11602718"}>Click here to view the Paper</Link></div>
         <img src={scea}alt='Loading⏳'/>
         </div></Fade>
       </div>
