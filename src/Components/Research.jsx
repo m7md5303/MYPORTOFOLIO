@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { Fade } from "react-awesome-reveal";
 import {
@@ -17,11 +17,13 @@ import {
 import { color } from 'framer-motion';
 export default function Research() {
     
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+    
     return (
         
         <div className='research'>
-             {window.scrollTo(0,0)}
             <img src={introres} className='introres'alt='Loading⏳'/>
         <div className='rintro'> <TypeAnimation
         sequence={[

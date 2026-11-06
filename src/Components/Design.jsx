@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import { useState } from 'react'
 import { Fade } from "react-awesome-reveal";
 import intro from '../Images/Picsart_23-09-01_03-43-42-438.jpg'
@@ -10,10 +10,13 @@ import Dmlfcmp from './Dmlfcmp';
 import Dmlfccmp from './Dmlfccmp'
 export default function Design() {
 
+      useEffect(() => {
+          window.scrollTo(0, 0);
+      }, []);
+
     return (
         
        <div className='digital'>
-         {window.scrollTo(0,0)}
         <img className='dintro' src={intro}alt='Loading⏳'/>
         
         <div className='dcontainer'>

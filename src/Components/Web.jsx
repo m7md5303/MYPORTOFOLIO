@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import mekkapic from '../Images/mekka.gif';
   import { Fade } from "react-awesome-reveal";
   import Dlabnyc from './Dlabnyc';
@@ -22,11 +22,13 @@ import qrd from '../Images/Screenshot 2023-09-13 042120.png'
 import pi from '../Images/WhatsApp Image 2021-04-03 at 4.30.47 PM.jpeg'
 
 export default function Web() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         
        <div className='web'>
-        {window.scrollTo(0,0)}
 <img src={webintro} className='webintro'alt='Loading⏳'/>
 
 <div className='webdet'>

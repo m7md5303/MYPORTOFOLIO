@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import { Fade } from "react-awesome-reveal";
 import aboutintro from '../Images/221599040_2344784828985632_1616524411177325289_n.jpg'
 import expintro from '../Images/expabout.jpeg'
@@ -14,11 +14,13 @@ import {
   } from "react-router-dom";
 export default function About() {
     
+  useEffect(() => {
+      window.scrollTo(0, 0);
+  }, []);
 
     return (
         
       <div className='about'>
-        {window.scrollTo(0,0)}
 <img src={aboutintro} className='aboutintro'alt='Loading⏳'/><Fade delay={200}>
 <div className='cont'>
     

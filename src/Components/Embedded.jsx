@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import { Fade } from "react-awesome-reveal";
 import intro from '../Images/Picsart_23-09-28_03-33-28-287.jpg'
 import projimg from '../Images/Picsart_23-09-28_03-35-11-677.jpg'
@@ -9,10 +9,14 @@ import Emlfcmp from './Emlfcmp';
 import Emlfccmp from './Emlfccmp'
 export default function Embedded() {
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         
        <div className='digital'>
-         {window.scrollTo(0,0)}
+
         <img className='dintro' src={intro}alt='Loading⏳'/>
 
         <div className='dcontainer'>

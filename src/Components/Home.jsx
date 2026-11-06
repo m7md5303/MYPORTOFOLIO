@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import { Fade } from "react-awesome-reveal";
 import { TypeAnimation } from 'react-type-animation';
 import introimg from '../Images/WhatsApp Image 2021-04-03 at 4.30.47 PM.jpeg'
@@ -13,10 +13,12 @@ import cv from '../Images/cv.png'
 import Lfcmp from './Lfcmp';
 export default function Home() {
   
-    return (
+  useEffect(() => {
+      window.scrollTo(0, 0);
+  }, []);
+  return (
         
       <div className='home' >
-         {window.scrollTo(0,0)}
          <Fade delay={200}>
         <img src={introimg} className='homeimg1' alt='Loading⏳'/>
         <TypeAnimation
